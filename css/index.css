@@ -1,0 +1,113 @@
+:root {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    --main-color: #333333;
+    --accent-color: #202020;
+    --text-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#body {
+    max-width: 1140px;
+    margin: auto;
+    background-color: var(--main-color);
+}
+
+/* SEO */
+
+.seo-row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 47px;
+}
+
+.btn-seo-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.seo-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 55px;
+    color: var(--text-color);
+    max-width: 555px;
+    max-height: 45px;
+}
+
+.seo-text p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.83);
+    max-width: 555px;
+    max-height: 71px;
+    margin-top: 73px;
+    margin-right: 30px;
+}
+
+.btn-get-free {
+    width: 234px;
+    height: 50px;
+    background: linear-gradient(279.29deg, #FF732F 7.03%, #FBBC04 92.97%);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.65), -5px -5px 25px #444444;
+    border-radius: 100px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 73px;
+}
+
+.btn-get-free a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.btn-give-bonus {
+    width: 235px;
+    height: 50px;
+    background: #333333;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.65), -5px -5px 25px #444444;
+    border-radius: 105px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 73px;
+    margin-left: 50px;
+}
+
+.btn-give-bonus a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.seo-image img {
+    width: 555px;
+    height: 312px;
+    border-radius: 10px;
+}
+
+.seo-image p {
+    text-align: right;
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.83);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    
+    
+}
