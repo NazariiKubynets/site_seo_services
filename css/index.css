@@ -353,16 +353,42 @@ a.dropdown-item {
     margin-bottom: 28px;
 }
 
-.calculator-button {
-   
+.calculator-shadow {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.75), -5px -5px 30px #505050;
+    border-radius: 100px;
 }
 
-.calculator-button button{
-    
+.calculator-button-border {
+    background: linear-gradient(149.74deg, #444444 10.44%, #1B1B1B 95.09%);
+    border-radius: 100px;
+    transform: rotate(180deg);
+    width: 40px;
+    height: 40px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.calculator-button img {
+.calculator-buttom{
+    width: 37.38px;
+    height: 37.38px;
+    background: linear-gradient(338.08deg, #444444 6.7%, #262626 90.13%);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;  
+}
+
+
+.calculator-buttom img {
     width: 16.63px;
+    transform: rotate(180deg);
+}
+
+.like-calculator p {
+    margin: 0px 30px;
 }
 
 
