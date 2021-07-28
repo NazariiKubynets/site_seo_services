@@ -18,3 +18,9 @@ $(document).ready(function(){
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " w3-red";
   }
+
+  $(document).ready(function(){
+    $('.slider-profiles').slick({
+      dots: true
+    });
+  });
