@@ -107,6 +107,7 @@ ul.dropdown-menu.show {
     background: linear-gradient(93.58deg, #313131 0.2%, #202020 100%);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75), -10px -10px 15px rgba(49, 49, 49, 0.5);
     border-radius: 20px;
+    border: none;
 }
 
 a.dropdown-item {
@@ -510,7 +511,7 @@ ul.slick-dots {
     background: #333333;
     width: 12px;
     height: 12px;
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
 .slick-dots li button:before {
@@ -598,6 +599,9 @@ ul.slick-dots {
     color: rgba(255, 255, 255, 0.71);
     margin-left: 23px;
     margin-right: 20px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
 }
 
 .city h2 {
