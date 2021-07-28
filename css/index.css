@@ -112,6 +112,9 @@
 }
 
 /* Nazarii */
+
+/* Способы SEO продвижения сайта */
+
 .ways-seo,.advertising-seo{
     width: 1142px;
 }
@@ -173,6 +176,13 @@
 .img-info{
   width: 15px;
   height: 15px;
+  margin-left: 5px;
+}
+
+.img-info-stl{
+  position: relative;
+  bottom: 10px;
+  right: 18px;
 }
 
 .list-a hr,.list-b hr,.list-c hr{
@@ -209,7 +219,7 @@
     background: linear-gradient(113.02deg, #1177FC 14.95%, #FF00F5 75.85%);
 }
 
-.tariffs-title{
+.tariffs-subtitle{
     color: var(--text-color);
     font-style: normal;
     font-weight: bold;
@@ -413,13 +423,13 @@
 }
 
 .btn-list a{
-    text-decoration: none;
     width: 357px;
     height: 15px;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.83);
 }
 
@@ -427,6 +437,8 @@
     width: 16px;
     height: 2;
 }
+
+/* SEO и контекстная реклама */
 
 .txt-seo-context-row{
     display: flex;
@@ -485,6 +497,8 @@
     margin-bottom: 174.67px;
 }
 
+/* Список по SEO продвижению сайта */
+
 .promotion-list-title{
     color: var(--text-color);
     width: 1136px;
@@ -537,6 +551,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 .classic-stl-a,.complex-stl-b,.etavrian-stl-c{
@@ -581,6 +596,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 .advantages-list hr,.classic-data-a hr,
@@ -617,7 +633,7 @@
 .etavrian-data-c p{
     color: rgba(255, 255, 255, 0.71);
     width: 204px;
-    height: 57.6px;
+    height: 60px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -625,20 +641,223 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     margin: 0;
 }
 
 .img-forbidden{
-  width: 24px;
-  height: 24px;
+    width: 24px;
+    height: 24px;
 }
 
 .img-tick{
-  width: 24px;
-  height: 18px;
+    width: 24px;
+    height: 18px;
 }
 
-.classic-data-a,.complex-data-b,
-.etavrian-data-c{
-  
+.colm-img{
+    width: 204px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gradient-price-a{
+    background: linear-gradient(90deg, #37A000 0%, #63D337 58.75%);
+}
+
+.gradient-price-b{
+    background: linear-gradient(279.29deg, #FF732F 7.03%, #FBBC04 92.97%);
+}
+
+.gradient-price-c{
+    background: linear-gradient(113.02deg, #1177FC 14.95%, #FF00F5 75.85%);
+}
+
+.promotion-stl-price{
+    width: 204px;
+    height: 60px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-help-choose a{
+    color: #EEF0F5;
+    width: 338.93px;
+    height: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+}
+
+.btn-help-choose{
+    margin-top: 71px;
+    margin-bottom: 301px;
+}
+
+.btn-choose-a,.btn-choose-b,
+.btn-choose-c{
+    width: 204px;
+    height: 50px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.65), -5px -5px 25px #444444;
+    border-radius: 100px;
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-choose-a a,.btn-choose-b a,
+.btn-choose-c a{
+    color: #EEF0F5;
+    width: 158.58px;
+    height: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-choose-a{
+    background: linear-gradient(90deg, #37A000 0%, #63D337 58.75%);
+}
+
+.btn-choose-b{
+    background: linear-gradient(279.29deg, #FF732F 7.03%, #FBBC04 92.97%);
+}
+
+.btn-choose-c{
+    background: linear-gradient(113.02deg, #1177FC 14.95%, #FF00F5 75.85%);
+}
+
+/* Наши клиенты, отзывы и публичные профили */
+
+.reviews-title{
+  color: var(--text-color);
+    width: 1136px;
+    height: 34px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 45px;
+    margin-bottom: 36.15px;
+}
+
+.customer-reviews{
+    width: 1140px;
+    height: 100px;
+    background: #C4C4C4;
+}
+
+.txt-under-customer{
+    color: rgba(255, 255, 255, 0.83);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: right;
+    text-decoration-line: underline;
+    margin-bottom: 24px;
+}
+
+.statistics{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.statistics-data-a{
+    color: var(--text-color);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    margin-left: 9px;
+}
+
+.statistics p{
+    color: rgba(255, 255, 255, 0.83);
+    width: 323px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    margin-left: 35px;
+}
+
+.statistics-data-b{
+    color: var(--text-color);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    margin-left: 100px;
+}
+
+.slider-profiles{
+    width: 650px;
+    height: 221px;
+    margin: 0px 245px;
+}
+
+.blok-row-slider{
+    display: flex;
+    flex-direction: row;
+}
+
+.img-slider-a{
+    background: #C4C4C4;
+    width: 118px;
+    height: 118px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.img-slider-b{
+    background: #C4C4C4;
+    width: 177px;
+    height: 118px;
+    margin-left: 38px;
+}
+
+.data-slider{
+    width: 251px;
+    margin-left: 37px;
+}
+
+.name-last_name{
+    color: rgba(255, 255, 255, 0.83);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 19px;
+}
+
+.name-posada{
+    color: rgba(255, 255, 255, 0.71);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.txt-slider{
+    color: rgba(255, 255, 255, 0.71);
+    width: 650px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
 }
