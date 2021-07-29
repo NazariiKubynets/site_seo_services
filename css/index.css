@@ -181,8 +181,8 @@
 
 .img-info-stl{
   position: relative;
-  bottom: 10px;
-  right: 18px;
+  bottom: -12px;
+    right: 162px;
 }
 
 .list-a hr,.list-b hr,.list-c hr{
@@ -627,6 +627,7 @@
     display: flex;
     align-items: center;
     margin: 0;
+    float: none;
 }
 
 .classic-data-a p,.complex-data-b p,
