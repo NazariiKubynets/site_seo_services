@@ -32,9 +32,7 @@
 
 
     font-size: 0;
-    /* line-height: 0; */
     position: absolute;
-    /* top: 50%; */
     padding: 0;
     cursor: pointer;
     border: none;
@@ -85,40 +83,14 @@
   box-shadow: -5px -5px 30px rgba(0, 0, 0, 0.75), 5px 5px 30px #505050;
 }
 
-.slick-prev
-{
-    /* left: -25px; */
-}
-[dir='rtl'] .slick-prev
-{
-    right: -25px;
-    left: auto;
-}
 .slick-prev:before
 {
-    content: '←';
-}
-[dir='rtl'] .slick-prev:before
-{
-    content: '→';
+    content:url("D:/HTML/Site_seo_services/site_seo_services/img/arrow-right.png");
 }
 
-.slick-next
-{
-    /* right: -25px; */
-}
-[dir='rtl'] .slick-next
-{
-    right: auto;
-    left: -25px;
-}
 .slick-next:before
 {
-    content: '→';
-}
-[dir='rtl'] .slick-next:before
-{
-    content: '←';
+    content: url("D:/HTML/Site_seo_services/site_seo_services/img/arrow-left.png");
 }
 
 /* Dots */
