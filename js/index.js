@@ -1,9 +1,3 @@
-$(document).ready(function(){
-    $('.carousel-seo').slick({
-        
-      dots: true
-    });
-  });   
 
   function openCity(evt, cityName) {
     var i, x, tablinks;
