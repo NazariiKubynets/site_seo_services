@@ -85,12 +85,20 @@
 
 .slick-prev:before
 {
+
+    content:url("../img/arrow-right.png");
+
     content:url("D:/HTML/Site_seo_services/site_seo_services/img/arrow-right.png");
+
 }
 
 .slick-next:before
 {
+
+    content: url("../img/arrow-left.png");
+
     content: url("D:/HTML/Site_seo_services/site_seo_services/img/arrow-left.png");
+
 }
 
 /* Dots */

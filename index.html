@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -7,20 +7,167 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" href="slick/slick-theme-sl.css" />
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
             integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="slick/slick.css"/>
     <link rel="stylesheet" href="slick/slick-theme-sl.css"/>
     <link rel="stylesheet" href="css/index.css">
 
+
 </head>
 
 <body id="body">
     <header>
+        <nav class="navbar navbar-expand-lg" id="menu" style="transition-duration: .5s;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="img/logo.jpg"></a>
+                <button class="navbar-toggler navbar-light" type="button " data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <div class="nav-section">
+                            <div class="nav-section-a">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Кейсы
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Блог
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Об агенстве
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <button>Бесплатная консультация</button>
+                                <p class="nav-number">8-800-8095-12</p>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Укр
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </div>
+                            <div class="nav-section-b">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        SEO
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Рекламные кампании
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Разработка
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Контент и менеджмент
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        UX/UI
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Аналитика и Анализ
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </div>
+                        </div>>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
 
     </header>
+
+
+    <main id="main">
+        <section class="seo-row">
+
     <main>
         <!-- Yulian -->
         <!-- <section class="seo-row">
+
             <div class="seo-text">
                 <h1 class="seo-title">SEO продвижение</h1>
                 <p>Получите бесплатную индивидуальную стратегию продвижения по SEO, просчет стоимости, этапов работ
@@ -30,7 +177,7 @@
                         <a href="#">Получить бесплатно</a>
                     </div>
                     <div class="btn-give-bonus">
-                        <a href="#">Забрать бонус</a>
+                        <a href="#">Забрать бонус<img src="img/icons8-pdf-20.png"></a>
                     </div>
                 </div>
             </div>
@@ -48,12 +195,1763 @@
                 <p>SEO (Search Engine Optimization, с англ. “оптимизация под поисковые системы”) – это комлексная
                     оптимизация и продвижение сайта для его выхода на первые позиции в результатах выдачи поисковых
                     систем по выбранным запросам с целью увеличения посещаемости и дальнейшего получения дохода.</p>
-                <h2>Больше заказов, меньше рекламы.</h2>
+                <h2 class="seo-subtitle-c">Больше заказов, меньше рекламы.</h2>
                 <p>SEO продвижение намного выгоднее в долгий срок - меньше затрат по сравнению с контекстной рекламой
                     или другим рекламным трафиком, поскольку рост неограничен рекламным бюджетом.</p>
             </div>
+
+        </section>
+        <section class="seo-list">
+            <h2>Содержание страницы</h2>
+            <div class="seo-list-c">
+                <div>
+                    <p>1. Что такое SEO продвижение?</p>
+                    <p>2. Что такое ETAVRIAN SEO?</p>
+                    <p>3. Калькулятор SEO продвижения</p>
+                    <p>4. Этапы SEO продвижения сайта в поисковых системах</p>
+                </div>
+                <div>
+                    <p>5. В чем разница между классическим SEO продвижением и ETAVRIAN SEO?</p>
+                    <p>6. Способы SEO продвижения сайта</p>
+                    <p>7. SEO и контекстная реклама</p>
+                    <p>8. Список по SEO продвижению сайта</p>
+                </div>
+                <div>
+                    <p>9. Почему продвижение сайта от “Этавриан” - лучшее решение?</p>
+                    <p>10. Наши клиенты и отзывы</p>
+                    <p>11. Виды SEO услуг</p>
+                    <p>12. Виды SEO услуг</p>
+                </div>
+            </div>
+        </section>
+        <section class="seo-calculator">
+            <h2>Калькулятор SEO продвижения</h2>
+            <div class="calculator-row">
+                <div class="calculator">
+
+                </div>
+                <div class="result-calculator">
+
+                </div>
+            </div>
+            <div class="like-calculator">
+                <h3>Понравился калькулятор?</h3>
+                <div>
+                    <div class="calculator-shadow">
+                        <div class="calculator-button-border">
+                            <button class="calculator-buttom"><img src="img/love.jpg"></button>
+                        </div>
+                    </div>
+                    <p>+7,413</p>
+                    <div class="calculator-shadow">
+                        <div class="calculator-button-border">
+                            <button class="calculator-buttom"><img src="img/love-a.jpg"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="save-send-calculator">
+                <h3>Сохранить или поделиться с друзьями:    </h3>
+
+
+
+            </div>
+        </section>
+        <section class="seo-form">
+            <h2>Заполните форму и получите <span class="form-w-a">бесплатный</span> <span class="form-w-b">анализ
+                    сайта</span> и <span class="form-w-с">прогноз результатов</span> на 6 или 12 месяцев в течении
+                24 часов</h2>
+            <form class="seo-form-c" method="POST" action="https://formspree.io/f/xpzognyk">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Ссылка на сайт</label>
+                    <input type="email" required class="form-control" name="email" id="exampleFormControlInput1"
+                        placeholder="www.domain.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Номер телефона</label>
+                    <input type="text" required class="form-control" name="phone" id="exampleFormControlInput1"
+                        placeholder="+380951235724">
+                </div>
+                <div class="button-form-submit">
+                    <button type="submit" class="btn btn-primary">Получить анализ и прогноз</button>
+                </div>
+            </form>
+            <p class="txt-under-btn">Нажимая кнопку, Вы соглашаетесь с условиями обработки <span>персональных
+                    данных</span></p>
+            <p class="txt-under-btn-c">Или получить комплексное коммерческое предложение<img
+                    src="https://img.icons8.com/ios-glyphs/20/ffffff/long-arrow-right.png" /></p>
+        </section>
+        <section class="seo-tabs">
+            <h1>Этапы SEO продвижения сайта в поисковых системах</h1>
+            <div class="w3-bar w3-black ">
+                <button class="w3-bar-item w3-button tablink w3-red" onclick="openCity(event,'London')">1. Техническая
+                    оптимизация</button>
+                <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Paris')">1. Техническая
+                    оптимизация</button>
+                <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Tokyo')">1. Техническая
+                    оптимизация</button>
+                <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Kalush')">1. Техническая
+                    оптимизация</button>
+                <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Frank')">1. Техническая
+                    оптимизация</button>
+            </div>
+            <div id="London" class="w3-container w3-border city">
+                <div class="tabs-row-c">
+                    <h2>London</h2>
+                    <img class="tabs-vector" src="img/tabs.jpg">
+                </div>
+                <div class="tabs-row">
+                    <img src="img/fake-img.jpg" alt="" />
+                    <p>Поисковые системы постоянно улучшают качество выдачи для максимального соответствия результатов
+                        поиска запросу пользователя. Поэтому необходимо продвигать сайт комплексно и понимать вашу цель
+                        в
+                        продвижении.
+                        Поэтому необходимо продвигать сайт комплексно и понимать вашу цель в продвижении.
+                        Поэтому необходимо продвигать сайт комплексно и понимать вашу цель в продвижении.
+                        Поисковые системы постоянно улучшают качество выдачи для максимального соответствия результатов
+                        поиска запросу пользователя. Поисковые системы постоянно улучшают качество выдачи для
+                        максимального
+                        соответствия результатов поиска запросу пользователя. Поисковые системы постоянно улучшают
+                        качество
+                        выдачи для максимального соответствия результатов поиска запросу пользователя. Поэтому
+                        необходимо
+                        продвигать сайт комплексно и понимать. Поисковые системы постоянно улучшают качество выдачи для
+                        максимального соответствия результатов поиска запросу пользователя. Поэтому необходимо
+                        продвигать
+                        сайт комплексно и понимать </p>
+                </div>
+            </div>
+
+            <div id="Paris" class="w3-container w3-border city" style="display:none">
+                <div class="tabs-row-c">
+                    <h2>Paris</h2>
+                    <img class="tabs-vector" src="img/tabs.jpg">
+                </div>
+                <div class="tabs-row">
+                    <img src="img/fake-img.jpg" alt="" />
+                    <p>Поисковые системы постоянно улучшают качество выдачи для максимального соответствия результатов
+                        поиска запросу пользователя. Поэтому необходимо продвигать сайт комплексно и понимать вашу цель
+                        в
+                        продвижении.
+                        Поэтому необходимо продвигать сайт комплексно и понимать вашу цель в продвижении.
+                        Поэтому необходимо продвигать сайт комплексно и понимать вашу цель в продвижении.
+                        Поисковые системы постоянно улучшают качество выдачи для максимального соответствия результатов
+                        поиска запросу пользователя. Поисковые системы постоянно улучшают качество выдачи для
+                        максимального
+                        соответствия результатов поиска запросу пользователя. Поисковые системы постоянно улучшают
+                        качество
+                        выдачи для максимального соответствия результатов поиска запросу пользователя. Поэтому
+                        необходимо
+                        продвигать сайт комплексно и понимать. Поисковые системы постоянно улучшают качество выдачи для
+                        максимального соответствия результатов поиска запросу пользователя. Поэтому необходимо
+                        продвигать
+                        сайт комплексно и понимать </p>
+                </div>
+            </div>
+            <div id="Tokyo" class="w3-container w3-border city" style="display:none">
+                <div class="tabs-row-c">
+                    <h2>Tokyo</h2>
+                    <img class="tabs-vector" src="img/tabs.jpg">
+                </div>
+                <div class="tabs-row">
+                    <img src="img/fake-img.jpg" alt="" />
+                    <p>Поисковые системы постоянно улучшают качество выдачи для максимального соответствия результатов
+                        поиска запросу пользователя. Поэтому необходимо продвигать сайт комплексно и понимать вашу цель
+                        в
+                        продвижении.
+                        Поэтому необходимо продвигать сайт комплексно и понимать вашу цель в продвижении.
+                        Поэтому необходимо продвигать сайт комплексно и понимать вашу цель в продвижении.
+                        Поисковые системы постоянно улучшают качество выдачи для максимального соответствия результатов
+                        поиска запросу пользователя. Поисковые системы постоянно улучшают качество выдачи для
+                        максимального
+                        соответствия результатов поиска запросу пользователя. Поисковые системы постоянно улучшают
+                        качество
+                        выдачи для максимального соответствия результатов поиска запросу пользователя. Поэтому
+                        необходимо
+                        продвигать сайт комплексно и понимать. Поисковые системы постоянно улучшают качество выдачи для
+                        максимального соответствия результатов поиска запросу пользователя. Поэтому необходимо
+                        продвигать
+                        сайт комплексно и понимать </p>
+                </div>
+            </div>
+
+            <div id="Kalush" class="w3-container w3-border city" style="display:none">
+                <div class="tabs-row-c">
+                    <h2>Kalush</h2>
+                    <img class="tabs-vector" src="img/tabs.jpg">
+                </div>
+                <div class="tabs-row">
+                    <img src="img/fake-img.jpg" alt="" />
+                    <p>Поисковые системы постоянно улучшают качество выдачи для максимального соответствия результатов
+                        поиска запросу пользователя. Поэтому необходимо продвигать сайт комплексно и понимать вашу цель
+                        в
+                        продвижении.
+                        Поэтому необходимо продвигать сайт комплексно и понимать вашу цель в продвижении.
+                        Поэтому необходимо продвигать сайт комплексно и понимать вашу цель в продвижении.
+                        Поисковые системы постоянно улучшают качество выдачи для максимального соответствия результатов
+                        поиска запросу пользователя. Поисковые системы постоянно улучшают качество выдачи для
+                        максимального
+                        соответствия результатов поиска запросу пользователя. Поисковые системы постоянно улучшают
+                        качество
+                        выдачи для максимального соответствия результатов поиска запросу пользователя. Поэтому
+                        необходимо
+                        продвигать сайт комплексно и понимать. Поисковые системы постоянно улучшают качество выдачи для
+                        максимального соответствия результатов поиска запросу пользователя. Поэтому необходимо
+                        продвигать
+                        сайт комплексно и понимать </p>
+                </div>
+            </div>
+
+            <div id="Frank" class="w3-container w3-border city" style="display:none">
+                <div class="tabs-row-c">
+                    <h2>Frank</h2>
+                    <img class="tabs-vector" src="img/tabs.jpg">
+                </div>
+                <div class="tabs-row">
+                    <img src="img/fake-img.jpg" alt="" />
+                    <p>Поисковые системы постоянно улучшают качество выдачи для максимального соответствия результатов
+                        поиска запросу пользователя. Поэтому необходимо продвигать сайт комплексно и понимать вашу цель
+                        в
+                        продвижении.
+                        Поэтому необходимо продвигать сайт комплексно и понимать вашу цель в продвижении.
+                        Поэтому необходимо продвигать сайт комплексно и понимать вашу цель в продвижении.
+                        Поисковые системы постоянно улучшают качество выдачи для максимального соответствия результатов
+                        поиска запросу пользователя. Поисковые системы постоянно улучшают качество выдачи для
+                        максимального
+                        соответствия результатов поиска запросу пользователя. Поисковые системы постоянно улучшают
+                        качество
+                        выдачи для максимального соответствия результатов поиска запросу пользователя. Поэтому
+                        необходимо
+                        продвигать сайт комплексно и понимать. Поисковые системы постоянно улучшают качество выдачи для
+                        максимального соответствия результатов поиска запросу пользователя. Поэтому необходимо
+                        продвигать
+                        сайт комплексно и понимать </p>
+                </div>
+            </div>
+        </section>
+        <section class="seo-carousel">
+            <h2>В чем разница между классическим SEO продвижением и ETAVRIAN SEO?</h2>
+            <p>Почему продукт ETAVRIAN SEO на уровень выше чем другие подходы?
+                <br>
+                <br>
+                Давайте наглядно сравним, что обычно входит в поисковое продвижение в агентстве и что предлагает
+                компания<br> «Этавриан» в рамках разработанного подхода.
+            </p>
+            <div class="carousel-h3">
+                <h3>Классическое SEO</h3>
+                <h3>Etavrian SEO</h3>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <div class="border-dots">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                    </div>
+                    <div class="border-dots">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    </div>
+                    <div class="border-dots">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="border-dots">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                    </div>
+                    <div class="border-dots">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                    </div>
+                    <div class="border-dots">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                            aria-label="Slide 5"></button>
+                    </div>
+                    <div class="border-dots">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+                            aria-label="Slide 5"></button>
+                    </div>
+                    <div class="border-dots">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+                            aria-label="Slide 5"></button>
+                    </div>
+                    <div class="border-dots">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"
+                            aria-label="Slide 5"></button>
+                    </div>
+                    <div class="border-dots">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9"
+                            aria-label="Slide 5"></button>
+                    </div>
+                    <div class="border-dots">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10"
+                            aria-label="Slide 5"></button>
+                    </div>
+                    <div class="border-dots">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="11"
+                            aria-label="Slide 5"></button>
+                    </div>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/fake-two.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/fake-img.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/fake-two.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/fake-two.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/fake-two.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/fake-two.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/fake-two.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/fake-two.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/fake-two.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/fake-two.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/fake-two.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/fake-two.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"><img src="img/arrow-left.png">
+                        Назад</span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true">Вперед <img
+                            src="img/arrow-right.png"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section class="ways-seo">
+            <div class="ways-seo-row">
+                <div class="ways-seo-txt">
+                    <h2 class="ways-seo-subtitle">Способы SEO продвижения сайта</h2>
+                    <p>Для интернет-ресурсов у которых уже есть трафик и поток клиентов, будет оптимально делать
+                        продвижение
+                        с KPI (Key Performance Indicators, с англ. “Ключевые показатели эффективности”) на разницу в
+                        трафике,
+                        выход в топ-5 или же увеличение конверсий с органической выдачи.</p>
+                    <p>Такой способ продвижения даст гарантию на результат и возможность выбрать проверенных
+                        seo-специалистов.</p>
+                    <p>Для сайтов которые еще не занимались seo оптимизацией, будет оптимально начать с продвижения по
+                        фиксированой ставке.</p>
+                </div>
+                <div class="ways-seo-image">
+                    <img src="img/fake-img.jpg" alt="fake" />
+                </div>
+            </div>
+            <div class="txt-tariffs">
+                <h3>Тарифы</h3>
+                <p>Итоговая стоимость продвижения сайта рассчитывается индивидуально для каждого проекта исходя из
+                    множества факторов и фиксируется при составлении договора. </p>
+            </div>
+            <div class="tariffs-seo">
+                <div class="tariffs-a">
+                    <div class="img-a">
+                    </div>
+                    <h4 class="tariffs-subtitle">Клаcсическое SEO</h4>
+                    <p class="txt-a">Для новых или не больших сайтов</p>
+                    <div class="price-stl-a">
+                        <div class="price-a">
+                            <p>$310/месяц</p>
+                        </div>
+                    </div>
+                    <div class="list-a">
+                        <p>3 узкопрофильных специалистов работают над проектом<img class="img-info" src="img/info.png"
+                                alt="info"></p>
+                        <hr>
+                        <p>Несколько запросов для продвижения</p>
+                        <hr>
+                        <p>Отчетность 1 раз в месяц</p>
+                        <hr>
+                        <p>Гарантии в договоре</p>
+                        <hr>
+                        <p>Оплата за выполненную работу</p>
+                        <hr>
+                    </div>
+                    <div class="btn-get-a">
+                        <a href="#">Получить предложение</a>
+                    </div>
+                </div>
+                <div class="tariffs-b">
+                    <div class="img-b">
+                    </div>
+                    <h4 class="tariffs-subtitle">Комплексное SEO</h4>
+                    <p class="txt-b">Для крупных интернет-магазинов, порталов, интернет-каталогов</p>
+                    <div class="price-stl-b">
+                        <div class="price-b">
+                            <p>$490/месяц</p>
+                        </div>
+                    </div>
+                    <div class="list-b">
+                        <p>7 узкопрофильных специалистов работают над проектом<img class="img-info" src="img/info.png"
+                                alt="info"></p>
+                        <hr>
+                        <p>Ежедневный мониторинг позиций</p>
+                        <hr>
+                        <p>Отчетность 2 раза в месяц</p>
+                        <hr>
+                        <p>Гарантии в договоре</p>
+                        <hr>
+                        <div class="list-txt-b">
+                            <p>Возможна оплата за позиции в ТОП-10 по выбранным ключевым запросам<img class="img-info"
+                                    src="img/info.png" alt="info"></p>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="btn-get-b">
+                        <a href="#">Получить предложение</a>
+                    </div>
+                </div>
+                <div class="tariffs-c">
+                    <div class="img-c">
+                    </div>
+                    <h4 class="tariffs-subtitle">Etavrian SEO</h4>
+                    <p class="txt-c">Для больших результатов</p>
+                    <div class="price-stl-c">
+                        <div class="price-c">
+                            <p>от $590/месяц</p>
+                        </div>
+                    </div>
+                    <div class="list-c">
+                        <p>7 узкопрофильных специалистов работают над проектом</p>
+                        <hr>
+                        <p>Неограниченное количество запросов</p>
+                        <hr>
+                        <p>Отчетность 2 раз в месяц</p>
+                        <hr>
+                        <p>Гарантии в договоре</p>
+                        <hr>
+                        <div class="list-txt-c">
+                            <p>Возможна оплата за привлеченного пользователя<img class="img-info" src="img/info.png"
+                                    alt="info"></p>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="btn-get-c">
+                        <a href="#">Получить предложение</a>
+                    </div>
+                </div>
+            </div>
+            <div class="background-btn">
+                <div class="btn-list">
+                    <a href="#">Полный список всех работ по каждому тарифу <img class="img-arrow-duwn"
+                            src="img/arrow.png" alt="arrow-duwn"></a>
+                </div>
+            </div>
+        </section>
+        <section class="advertising-seo">
+            <div class="advertising-seo-row">
+                <div class="advertising-seo-txt">
+                    <h2 class="advertising-seo-subtitle">SEO и контекстная реклама</h2>
+                    <p>Для интернет-ресурсов у которых уже есть трафик и поток клиентов, будет оптимально делать
+                        продвижение
+                        с KPI (Key Performance Indicators, с англ. “Ключевые показатели эффективности”) на разницу в
+                        трафике,
+                        выход в топ-5 или же увеличение конверсий с органической выдачи.</p>
+                    <p>Такой способ продвижения даст гарантию на результат и возможность выбрать проверенных
+                        seo-специалистов.</p>
+                    <p>Для сайтов которые еще не занимались seo оптимизацией, будет оптимально начать с продвижения по
+                        фиксированой ставке.</p>
+                </div>
+                <div class="advertising-seo-image">
+                    <img src="img/fake-img.jpg" alt="fake" />
+                </div>
+            </div>
+            <div class="txt-seo_or_context">
+                <h3>Что выгоднее: seo или контекст?</h3>
+                <p>Давайте наглядно сравним все преимущества и недостатки этих инструментов.</p>
+            </div>
+            <div class="txt-seo-context-row">
+                <div class="seo-promotion">
+                    <h4 class="promotion-title">SEO продвижение</h4>
+                    <hr>
+                    <p>Результат через 3-6 месяцев продвижения</p>
+                    <hr>
+                    <p><span>Обьем трафика на сайте не зависит от рекламного бюджета</span></p>
+                    <hr>
+                    <p><span>Органический трафик будет поступать даже после окончания оптимизации</span></p>
+                    <hr>
+                    <p><span>Органичный и бесплатный рост трафика за счет контента на сайте</span></p>
+                    <hr>
+                    <p>Нету гарантий по стабильности позициях в поисковой выдаче</p>
+                    <hr>
+                    <p>Внесение изменений или тестов требует времени</p>
+                    <hr>
+                </div>
+                <div class="сontextual-advertising">
+                    <h4 class="dvertising-title">Контекстная реклама</h4>
+                    <hr>
+                    <p><span>Результат сразу после запуска кампании</span></p>
+                    <hr>
+                    <p>Оплата за каждый клик</p>
+                    <hr>
+                    <p>Трафик перестает поступать если отключить кампанию</p>
+                    <hr>
+                    <p>Рост списка запросов увеличивает затраты на продвижение</p>
+                    <hr>
+                    <p><span>Фиксирование позиции, но цена за клик постоянно растет.</span></p>
+                    <hr>
+                    <p><span>Возможность оперативного внесения изменений и тестирования</span></p>
+                    <hr>
+                </div>
+            </div>
+            <div class="advertising-seo-desc">
+                <p>На самом деле, SEO и PPC направлены на решение разных задач. Их совместное использование дает
+                    синергетический эффект:
+                    повышает видимость за счёт поведенческих факторов, позволяет оперативно противостоять негативному
+                    информационному фону
+                    и управлять репутацией, проводить тестирование изменений, выявлять наиболее конверсионные ключевые
+                    слова, нивелировать
+                    сезонный спад продаж и многое другое. В итоге SEO используется как основной метод привлечения
+                    целевого трафика, а все
+                    остальные – как поддерживающие, вторичные.
+                </p>
+            </div>
+        </section>
+        <section class="promotion-list">
+            <h2 class="promotion-list-title">Список по SEO продвижению сайта</h2>
+            <div class="promotion-list-row">
+                <div class="promotion-list-colmn">
+                    <div class="advantages-name-stl">
+                        <div class="advantages-stl">
+                            <h5 class="advantages-subtitle">Преимущества каждого тарифа</h5>
+                        </div>
+                    </div>
+                    <div class="advantages-list">
+                        <p>Количество поисковых запросов для продвижения
+                            (запросы с менее чем 1 миллиона результатов)</p>
+                        <hr>
+                        <p>Количество страниц оптимзированых вручную<img class="img-info" src="img/info.png" alt="info">
+                        </p>
+                        <hr>
+                        <p>Создание и оптимизация страницы 404</p>
+                        <hr>
+                        <p>Создание и оптимизация страницы “Спасибо”</p>
+                        <hr>
+                        <p>Оптимизация UX/UI</p>
+                        <hr>
+                        <p>Проверка и добавление нового функционала <br>и элементов на сайт<img
+                                class="img-info img-info-stl" src="img/info.png" alt="info"></p>
+                        <hr>
+                        <p>Улучшение поведенческих факторов клиента на сайте<img class="img-info" src="img/info.png"
+                                alt="info"></p>
+                        <hr>
+                        <p>Внедрение Google Analytics 4 и настройка целей</p>
+                        <hr>
+                        <p>Внедрение сервисов тепловой карты сайта (Heatmap)</p>
+                        <hr>
+                        <p>Подключение колл-трекинга</p>
+                        <hr>
+                        <p>Настройка и оптимизация Google my Business (если есть)</p>
+                        <hr>
+                        <p>Ведение аккаунта Google my Business</p>
+                        <hr>
+                        <p>Количество поисковых запросов для продвижения с более чем 1 миллион результатов</p>
+                        <hr>
+                        <p>Копирайтинг страниц</p>
+                        <hr>
+                        <p>Сбор семантического ядра</p>
+                        <hr>
+                        <p>Расширение и оптимизация структуры сайта</p>
+                        <hr>
+                        <p>CRO - Оптимизация конверсии сайта</p>
+                        <hr>
+                        <p>Оптимизация скорости сайта (базовая)</p>
+                        <hr>
+                        <p>Core Web Vitals оптимизация</p>
+                        <hr>
+                        <p>Обратные ссылки<img class="img-info" src="img/info.png" alt="info"></p>
+                        <hr>
+                        <p>Яндекс метрика/вебмастер</p>
+                        <hr>
+                        <p>Внутренняя перелинковка</p>
+                        <hr>
+                        <p>Анализ сайта и расчет результатов работы по количеству лидов/конверсий</p>
+                        <hr>
+                        <p>Написание и оптимизация Title и Description</p>
+                        <hr>
+                        <p>Создание и оптимизация ЧПУ</p>
+                        <hr>
+                        <p>Создание, оптимизация и отправка сайтмап в формате XML и HTML</p>
+                        <hr>
+                        <p>Создание и оптимизация файла robots.txt</p>
+                        <hr>
+                        <p>Базовая оптимизация под алгоритм E-A-T</p>
+                        <hr>
+                        <p>Устранение ошибок по HTML валидатору</p>
+                        <hr>
+                        <p>Устранение ошибок сайта по других сервисах (ahrefs, seranking, semrush)</p>
+                        <hr>
+                        <p>Перевод сайта на https и оптимизация mixed content</p>
+                        <hr>
+                        <p>Оптимизация всех МЕТА данных сайта (15+ шт)</p>
+                        <hr>
+                        <p>Оптимизация разметки Open Graph</p>
+                        <hr>
+                        <p>Оптимизация структурных данных JSON-LD для получения сниппетов</p>
+                        <hr>
+                        <p>Проверка и оптимизация редиректов</p>
+                        <hr>
+                        <p>Оптимизация тэгов H1-H6</p>
+                        <hr>
+                        <p>Оптимизация изображений на базовом уровне</p>
+                        <hr>
+                        <p>Оптимизация изображений на профессиональном уровне
+                            (на странице которая продвигается точечно)</p>
+                        <hr>
+                        <p>Внедрение правильной lazy load изображений и индексации поисковыми системами</p>
+                        <hr>
+                        <p>Внедрение хлебных крошек</p>
+                        <hr>
+                        <p>Исправление зеркал www, http и других</p>
+                        <hr>
+                        <p>Отключение от индексации не нужных страниц</p>
+                        <hr>
+                        <p>Правильная генерация страниц фильтров</p>
+                        <hr>
+                        <p>Оптимизация шаблонов страниц (статья, товар/услуга, категория, фильтры)</p>
+                        <hr>
+                        <p>Полная оптимизация под алгоритм E-A-T с созданием дополнительного контента</p>
+                        <hr>
+                        <p>Оптимизация семантической HTML верстки</p>
+                        <hr>
+                        <p>Полная оптимизация структурных данных JSON-LD для всех элементов на сайте</p>
+                        <hr>
+                        <p>Анализ воронки продаж на странице оплаты</p>
+                        <hr>
+                        <p>Отчеты в Google Data Studio </p>
+                        <hr>
+                        <p>Senior SEO специалист в команде</p>
+                        <hr>
+                        <p>UX/UI дизайнер в команде</p>
+                        <hr>
+                        <p>Back-end разрабочтик в команде</p>
+                        <hr>
+                        <p>Front-end разработчик в команде</p>
+                        <hr>
+                        <p>Копирайтер в команде</p>
+                        <hr>
+                        <p>SEO специалист для ведения проекта</p>
+                        <hr>
+                        <p>Link Builder в команде</p>
+                        <hr>
+                        <p>Стоимость ведения</p>
+                        <hr>
+                    </div>
+                    <div class="btn-help-choose">
+                        <a href="#">Помочь с выбором тарифа?</a>
+                    </div>
+                </div>
+                <div class="promotion-colmn-a">
+                    <div class="classic-stl-a">
+                        <div class="classic-a">
+                            <h5 class="classic-subtitle">Классический</h5>
+                        </div>
+                    </div>
+                    <div class="classic-data-a">
+                        <p>20-50</p>
+                        <hr>
+                        <p>до 5</p>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-forbidden" src="img/forbidden.png" alt="forbidden">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-forbidden" src="img/forbidden.png" alt="forbidden">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-forbidden" src="img/forbidden.png" alt="forbidden">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-forbidden" src="img/forbidden.png" alt="forbidden">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-forbidden" src="img/forbidden.png" alt="forbidden">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-forbidden" src="img/forbidden.png" alt="forbidden">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-forbidden" src="img/forbidden.png" alt="forbidden">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-forbidden" src="img/forbidden.png" alt="forbidden">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-forbidden" src="img/forbidden.png" alt="forbidden">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-forbidden" src="img/forbidden.png" alt="forbidden">
+                        </div>
+                        <hr>
+                        <p>до 5</p>
+                        <hr>
+                        <p>Для отдельных <br> страниц</p>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-forbidden" src="img/forbidden.png" alt="forbidden">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-forbidden" src="img/forbidden.png" alt="forbidden">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-forbidden" src="img/forbidden.png" alt="forbidden">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-forbidden" src="img/forbidden.png" alt="forbidden">
+                        </div>
+                        <hr>
+                        <p>до 5 шт в месяц</p>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <p>1 шт</p>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-forbidden" src="img/forbidden.png" alt="forbidden">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-forbidden" src="img/forbidden.png" alt="forbidden">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-forbidden" src="img/forbidden.png" alt="forbidden">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-forbidden" src="img/forbidden.png" alt="forbidden">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-forbidden" src="img/forbidden.png" alt="forbidden">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-forbidden" src="img/forbidden.png" alt="forbidden">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-forbidden" src="img/forbidden.png" alt="forbidden">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="gradient-price-a promotion-stl-price">$310/месяц</div>
+                        <hr>
+                    </div>
+                    <div class="btn-choose-a">
+                        <a href="#">Выбрать</a>
+                    </div>
+                </div>
+                <div class="promotion-colmn-b">
+                    <div class="complex-stl-b">
+                        <div class="complex-b">
+                            <h5 class="complex-subtitle">Комплексный</h5>
+                        </div>
+                    </div>
+                    <div class="complex-data-b">
+                        <p>51-120</p>
+                        <hr>
+                        <p>до 15</p>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-forbidden" src="img/forbidden.png" alt="forbidden">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-forbidden" src="img/forbidden.png" alt="forbidden">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-forbidden" src="img/forbidden.png" alt="forbidden">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <p>1 шт</p>
+                        <hr>
+                        <p>1-5</p>
+                        <hr>
+                        <p>6-15</p>
+                        <hr>
+                        <p>Полный сбор<br>семантики</p>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-forbidden" src="img/forbidden.png" alt="forbidden">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-forbidden" src="img/forbidden.png" alt="forbidden">
+                        </div>
+                        <hr>
+                        <p>5-10 шт в месяц</p>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <p>до 3 шт</p>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-forbidden" src="img/forbidden.png" alt="forbidden">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="gradient-price-b promotion-stl-price">$490/месяц</div>
+                        <hr>
+                    </div>
+                    <div class="btn-choose-b">
+                        <a href="#">Выбрать</a>
+                    </div>
+                </div>
+                <div class="promotion-colmn-c">
+                    <div class="etavrian-stl-c">
+                        <div class="etavrian-c">
+                            <h5 class="complex-subtitle">Etavrian</h5>
+                        </div>
+                    </div>
+                    <div class="etavrian-data-c">
+                        <p>121+</p>
+                        <hr>
+                        <p>16+</p>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <p>1 шт</p>
+                        <hr>
+                        <p>6+</p>
+                        <hr>
+                        <p>16+</p>
+                        <hr>
+                        <p>Полный сбор <br> семантики</p>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <p>от 11 шт в месяц</p>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <p>Все изображения на<br>странице</p>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="colm-img">
+                            <img class="img-tick" src="img/tick.png" alt="tick">
+                        </div>
+                        <hr>
+                        <div class="gradient-price-c promotion-stl-price">от $590/месяц</div>
+                        <hr>
+                    </div>
+                    <div class="btn-choose-c">
+                        <a href="#">Выбрать</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="seo-service">
+            <div class="seo-service-a">
+                <h2>Почему продвижение сайта от “Этавриан” - лучшее решение?</h2>
+                <p>Проверьте в чем наша услуга уникальна для Вас по сравнению с SEO услугами на рынке</p>
+                <div class="seo-service-grid">
+                    <div>
+                        <div class="seo-service-img"></div>
+                        <h3>Фиксируем результаты </h3>
+                        <p>Результаты продвижения прописаны в договоре. В случае если они не достигнуты - продвижение за
+                            наш
+                            счет.</p>
+                    </div>
+                    <div>
+                        <div class="seo-service-img"></div>
+                        <h3>Не нужно нанимать еще кого-то </h3>
+                        <p>Все необходимые работы (написания текстов, ссылки, разработка) включены в стоимость. Вам не
+                            нужно
+                            будет привлекать других специалистов или делать дополнительные траты. (Кроме покупки
+                            сервисов.
+                            Например: колл-трекинг)</p>
+
+                    </div>
+                    <div>
+                        <div class="seo-service-img"></div>
+                        <h3>Если нету смысла делать SEO</h3>
+                        <p>Наша цель - принести вам клиентов, а не продать нашу услугу. Поэтому, если на этапе анализа
+                            окажется что SEO продвижение вам не выгодно на данном этапе - мы предложим стратегию по
+                            другому
+                            инструменту бесплатно</p>
+
         </section> -->
 
+
+                    </div>
+                </div>
+            </div>
+            <div class="seo-service-b">
+                <h2>Все еще сомневаетесь?</h2>
+                <p>Преимущества которые уже не настолько уникальные, но все еще крутые</p>
+                <div class="seo-service-grid-b">
+                    <div>
+                        <div class="seo-service-image"></div>
+                        <h3>Персольнальный менеджер</h3>
+                        <p>Результаты продвижения прописаны в договоре. В случае если они не достигнуты - продвижение за
+                            наш счет.</p>
+                    </div>
+                    <div>
+                        <div class="seo-service-image"></div>
+                        <h3>Персольнальный менеджер</h3>
+                        <p>Результаты продвижения прописаны в договоре. В случае если они не достигнуты - продвижение за
+                            наш счет.</p>
+                    </div>
+                    <div>
+                        <div class="seo-service-image"></div>
+                        <h3>Персольнальный менеджер</h3>
+                        <p>Результаты продвижения прописаны в договоре. В случае если они не достигнуты - продвижение за
+                            наш счет.</p>
+                    </div>
+                    <div>
+                        <div class="seo-service-image"></div>
+                        <h3>Персольнальный менеджер</h3>
+                        <p>Результаты продвижения прописаны в договоре. В случае если они не достигнуты - продвижение за
+                            наш счет.</p>
+                    </div>
+                    <div>
+                        <div class="seo-service-image"></div>
+                        <h3>Персольнальный менеджер</h3>
+                        <p>Результаты продвижения прописаны в договоре. В случае если они не достигнуты - продвижение за
+                            наш счет.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="seo-form">
+            <h2>Заполните форму и получите <span class="form-w-a">бесплатный</span> <span class="form-w-b">анализ
+                    сайта</span> и <span class="form-w-с">прогноз результатов</span> на 6 или 12 месяцев в течении
+                24 часов</h2>
+            <form class="seo-form-c" method="POST" action="https://formspree.io/f/xpzognyk">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Ссылка на сайт</label>
+                    <input type="email" required class="form-control" name="email" id="exampleFormControlInput1"
+                        placeholder="www.domain.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Номер телефона</label>
+                    <input type="text" required class="form-control" name="phone" id="exampleFormControlInput1"
+                        placeholder="+380951235724">
+                </div>
+                <div class="button-form-submit">
+                    <button type="submit" class="btn btn-primary">Получить анализ и прогноз</button>
+                </div>
+            </form>
+            <p class="txt-under-btn">Нажимая кнопку, Вы соглашаетесь с условиями обработки <span>персональных
+                    данных</span></p>
+            <p class="txt-under-btn-c">Или получить комплексное коммерческое предложение<img
+                    src="https://img.icons8.com/ios-glyphs/20/ffffff/long-arrow-right.png" /></p>
+        </section>
+        <section class="reviews">
+            <h2 class="reviews-title">Наши клиенты, отзывы и публичные профили</h2>
+            <div class="customer-reviews"></div>
+            <p class="txt-under-customer">Посмотреть всех клиентов и отзывы<img
+                    src="https://img.icons8.com/ios-glyphs/20/ffffff/long-arrow-right.png"></p>
+            <div class="statistics">
+                <div class="statistics-data-a">>500</div>
+                <p>Проектов выполнено за <br> все время</p>
+                <div class="statistics-data-b">>62%</div>
+                <p>Клиентов работают с нами <br> дольше чем 4 месяца</p>
+            </div>
+            <div class="slider-profiles">
+                <div class="slider">
+                    <div class="blok-row-slider">
+                        <div class="img-slider-a"></div>
+                        <div class="img-slider-b"></div>
+                        <div class="data-slider">
+                            <p class="name-last_name">Андрей Данив</p>
+                            <p class="name-posada">Ген. директор ТОВ “Етавріан”</p>
+                            <p class="name-posada">etavrian.com</p>
+                        </div>
+                    </div>
+                    <p class="txt-slider">Получите бесплатную индивидуальную стратегию продвижения по SEO, просчет
+                        стоимости, этапов работ и прогноз результатов на пол года! Отправьте нам эти данные
+                        что бы мы смогли изучить и проанализировать ответы и сделать для вас бесплатную
+                        стратегию продвижения сайта и указать точную стоимость и сроки продвижения
+                    </p>
+                </div>
+                <div class="slider">
+                    <div class="blok-row-slider">
+                        <div class="img-slider-a"></div>
+                        <div class="img-slider-b"></div>
+                        <div class="data-slider">
+                            <p class="name-last_name">Андрей Данив</p>
+                            <p class="name-posada">Ген. директор ТОВ “Етавріан”</p>
+                            <p class="name-posada">etavrian.com</p>
+                        </div>
+                    </div>
+                    <p class="txt-slider">Получите бесплатную индивидуальную стратегию продвижения по SEO, просчет
+                        стоимости, этапов работ и прогноз результатов на пол года! Отправьте нам эти данные
+                        что бы мы смогли изучить и проанализировать ответы и сделать для вас бесплатную
+                        стратегию продвижения сайта и указать точную стоимость и сроки продвижения
+                    </p>
+                </div>
+                <div class="slider">
+                    <div class="blok-row-slider">
+                        <div class="img-slider-a"></div>
+                        <div class="img-slider-b"></div>
+                        <div class="data-slider">
+                            <p class="name-last_name">Андрей Данив</p>
+                            <p class="name-posada">Ген. директор ТОВ “Етавріан”</p>
+                            <p class="name-posada">etavrian.com</p>
+                        </div>
+                    </div>
+                    <p class="txt-slider">Получите бесплатную индивидуальную стратегию продвижения по SEO, просчет
+                        стоимости, этапов работ и прогноз результатов на пол года! Отправьте нам эти данные
+                        что бы мы смогли изучить и проанализировать ответы и сделать для вас бесплатную
+                        стратегию продвижения сайта и указать точную стоимость и сроки продвижения
+                    </p>
+                </div>
+                <div class="slider">
+                    <div class="blok-row-slider">
+                        <div class="img-slider-a"></div>
+                        <div class="img-slider-b"></div>
+                        <div class="data-slider">
+                            <p class="name-last_name">Андрей Данив</p>
+                            <p class="name-posada">Ген. директор ТОВ “Етавріан”</p>
+                            <p class="name-posada">etavrian.com</p>
+                        </div>
+                    </div>
+                    <p class="txt-slider">Получите бесплатную индивидуальную стратегию продвижения по SEO, просчет
+                        стоимости, этапов работ и прогноз результатов на пол года! Отправьте нам эти данные
+                        что бы мы смогли изучить и проанализировать ответы и сделать для вас бесплатную
+                        стратегию продвижения сайта и указать точную стоимость и сроки продвижения
+                    </p>
+                </div>
+                <div class="slider">
+                    <div class="blok-row-slider">
+                        <div class="img-slider-a"></div>
+                        <div class="img-slider-b"></div>
+                        <div class="data-slider">
+                            <p class="name-last_name">Андрей Данив</p>
+                            <p class="name-posada">Ген. директор ТОВ “Етавріан”</p>
+                            <p class="name-posada">etavrian.com</p>
+                        </div>
+                    </div>
+                    <p class="txt-slider">Получите бесплатную индивидуальную стратегию продвижения по SEO, просчет
+                        стоимости, этапов работ и прогноз результатов на пол года! Отправьте нам эти данные
+                        что бы мы смогли изучить и проанализировать ответы и сделать для вас бесплатную
+                        стратегию продвижения сайта и указать точную стоимость и сроки продвижения
+                    </p>
+                </div>
+                <div class="slider">
+                    <div class="blok-row-slider">
+                        <div class="img-slider-a"></div>
+                        <div class="img-slider-b"></div>
+                        <div class="data-slider">
+                            <p class="name-last_name">Андрей Данив</p>
+                            <p class="name-posada">Ген. директор ТОВ “Етавріан”</p>
+                            <p class="name-posada">etavrian.com</p>
+                        </div>
+                    </div>
+                    <p class="txt-slider">Получите бесплатную индивидуальную стратегию продвижения по SEO, просчет
+                        стоимости, этапов работ и прогноз результатов на пол года! Отправьте нам эти данные
+                        что бы мы смогли изучить и проанализировать ответы и сделать для вас бесплатную
+                        стратегию продвижения сайта и указать точную стоимость и сроки продвижения
+                    </p>
+                </div>
+                <div class="slider">
+                    <div class="blok-row-slider">
+                        <div class="img-slider-a"></div>
+                        <div class="img-slider-b"></div>
+                        <div class="data-slider">
+                            <p class="name-last_name">Андрей Данив</p>
+                            <p class="name-posada">Ген. директор ТОВ “Етавріан”</p>
+                            <p class="name-posada">etavrian.com</p>
+                        </div>
+                    </div>
+                    <p class="txt-slider">Получите бесплатную индивидуальную стратегию продвижения по SEO, просчет
+                        стоимости, этапов работ и прогноз результатов на пол года! Отправьте нам эти данные
+                        что бы мы смогли изучить и проанализировать ответы и сделать для вас бесплатную
+                        стратегию продвижения сайта и указать точную стоимость и сроки продвижения
+                    </p>
+                </div>
+                <div class="slider">
+                    <div class="blok-row-slider">
+                        <div class="img-slider-a"></div>
+                        <div class="img-slider-b"></div>
+                        <div class="data-slider">
+                            <p class="name-last_name">Андрей Данив</p>
+                            <p class="name-posada">Ген. директор ТОВ “Етавріан”</p>
+                            <p class="name-posada">etavrian.com</p>
+                        </div>
+                    </div>
+                    <p class="txt-slider">Получите бесплатную индивидуальную стратегию продвижения по SEO, просчет
+                        стоимости, этапов работ и прогноз результатов на пол года! Отправьте нам эти данные
+                        что бы мы смогли изучить и проанализировать ответы и сделать для вас бесплатную
+                        стратегию продвижения сайта и указать точную стоимость и сроки продвижения
+                    </p>
+                </div>
+                <div class="slider">
+                    <div class="blok-row-slider">
+                        <div class="img-slider-a"></div>
+                        <div class="img-slider-b"></div>
+                        <div class="data-slider">
+                            <p class="name-last_name">Андрей Данив</p>
+                            <p class="name-posada">Ген. директор ТОВ “Етавріан”</p>
+                            <p class="name-posada">etavrian.com</p>
+                        </div>
+                    </div>
+                    <p class="txt-slider">Получите бесплатную индивидуальную стратегию продвижения по SEO, просчет
+                        стоимости, этапов работ и прогноз результатов на пол года! Отправьте нам эти данные
+                        что бы мы смогли изучить и проанализировать ответы и сделать для вас бесплатную
+                        стратегию продвижения сайта и указать точную стоимость и сроки продвижения
+                    </p>
+                </div>
+                <div class="slider">
+                    <div class="blok-row-slider">
+                        <div class="img-slider-a"></div>
+                        <div class="img-slider-b"></div>
+                        <div class="data-slider">
+                            <p class="name-last_name">Андрей Данив</p>
+                            <p class="name-posada">Ген. директор ТОВ “Етавріан”</p>
+                            <p class="name-posada">etavrian.com</p>
+                        </div>
+                    </div>
+                    <p class="txt-slider">Получите бесплатную индивидуальную стратегию продвижения по SEO, просчет
+                        стоимости, этапов работ и прогноз результатов на пол года! Отправьте нам эти данные
+                        что бы мы смогли изучить и проанализировать ответы и сделать для вас бесплатную
+                        стратегию продвижения сайта и указать точную стоимость и сроки продвижения
+                    </p>
+                </div>
+                <div class="slider">
+                    <div class="blok-row-slider">
+                        <div class="img-slider-a"></div>
+                        <div class="img-slider-b"></div>
+                        <div class="data-slider">
+                            <p class="name-last_name">Андрей Данив</p>
+                            <p class="name-posada">Ген. директор ТОВ “Етавріан”</p>
+                            <p class="name-posada">etavrian.com</p>
+                        </div>
+                    </div>
+                    <p class="txt-slider">Получите бесплатную индивидуальную стратегию продвижения по SEO, просчет
+                        стоимости, этапов работ и прогноз результатов на пол года! Отправьте нам эти данные
+                        что бы мы смогли изучить и проанализировать ответы и сделать для вас бесплатную
+                        стратегию продвижения сайта и указать точную стоимость и сроки продвижения
+                    </p>
+                </div>
+                <div class="slider">
+                    <div class="blok-row-slider">
+                        <div class="img-slider-a"></div>
+                        <div class="img-slider-b"></div>
+                        <div class="data-slider">
+                            <p class="name-last_name">Андрей Данив</p>
+                            <p class="name-posada">Ген. директор ТОВ “Етавріан”</p>
+                            <p class="name-posada">etavrian.com</p>
+                        </div>
+                    </div>
+                    <p class="txt-slider">Получите бесплатную индивидуальную стратегию продвижения по SEO, просчет
+                        стоимости, этапов работ и прогноз результатов на пол года! Отправьте нам эти данные
+                        что бы мы смогли изучить и проанализировать ответы и сделать для вас бесплатную
+                        стратегию продвижения сайта и указать точную стоимость и сроки продвижения
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="seo-kind">
+            <h2>Виды SEO услуг</h2>
+            <p class="seo-kind-txt">Поисковые системы постоянно улучшают качество выдачи для максимального соответствия
+                результатов поиска
+                запросу пользователя. Поэтому необходимо продвигать сайт комплексно и понимать вашу цель в
+                продвижении.<br><br>
+
+
+                Для интернет-ресурсов у которых уже есть трафик и поток клиентов, будет оптимально делать продвижение с
+                KPI (Key Performance Indicators, с англ. “Ключевые показатели эффективности”) на разницу в трафике,
+                выход в топ-5 или же увеличение конверсий с органической выдачи.<br><br>
+
+                Такой способ продвижения даст гарантию на результат и возможность выбрать проверенных seo-специалистов.
+            </p>
+            <div class="seo-kind-grid">
+                <div>
+                    <div class="seo-kind-row">
+                        <div class="seo-kind-img"></div>
+                        <h3>Локальное SEO <br>(продвижение в регионе)</h3>
+                    </div>
+                    <p>Поисковые системы постоянно улучшают качество выдачи для максимального соответствия результатов
+                        поиска запросу пользователя. Поэтому необходимо продвигать сайт комплексно и понимать вашу цель
+                        в
+                        продвижении.
+                    </p>
+                    <div class="seo-kind-button">
+                        <button>Забрать бонус<img src="img/icons8-pdf-20.png"></button>
+                        <button>Подробнее</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="seo-kind-row">
+                        <div class="seo-kind-img"></div>
+                        <h3>Локальное SEO <br>(продвижение в регионе)</h3>
+                    </div>
+                    <p>Поисковые системы постоянно улучшают качество выдачи для максимального соответствия результатов
+                        поиска запросу пользователя. Поэтому необходимо продвигать сайт комплексно и понимать вашу цель
+                        в
+                        продвижении.
+                    </p>
+                    <div class="seo-kind-button">
+                        <button>Забрать бонус<img src="img/icons8-pdf-20.png"></button>
+                        <button>Подробнее</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="seo-kind-row">
+                        <div class="seo-kind-img"></div>
+                        <h3>Локальное SEO <br>(продвижение в регионе)</h3>
+                    </div>
+                    <p>Поисковые системы постоянно улучшают качество выдачи для максимального соответствия результатов
+                        поиска запросу пользователя. Поэтому необходимо продвигать сайт комплексно и понимать вашу цель
+                        в
+                        продвижении.
+                    </p>
+                    <div class="seo-kind-button">
+                        <button>Забрать бонус<img src="img/icons8-pdf-20.png"></button>
+                        <button>Подробнее</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="seo-kind-row">
+                        <div class="seo-kind-img"></div>
+                        <h3>Локальное SEO <br>(продвижение в регионе)</h3>
+                    </div>
+                    <p>Поисковые системы постоянно улучшают качество выдачи для максимального соответствия результатов
+                        поиска запросу пользователя. Поэтому необходимо продвигать сайт комплексно и понимать вашу цель
+                        в
+                        продвижении.
+                    </p>
+                    <div class="seo-kind-button">
+                        <button>Забрать бонус<img src="img/icons8-pdf-20.png"></button>
+                        <button>Подробнее</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="seo-kind-row">
+                        <div class="seo-kind-img"></div>
+                        <h3>Локальное SEO <br>(продвижение в регионе)</h3>
+                    </div>
+                    <p>Поисковые системы постоянно улучшают качество выдачи для максимального соответствия результатов
+                        поиска запросу пользователя. Поэтому необходимо продвигать сайт комплексно и понимать вашу цель
+                        в
+                        продвижении.
+                    </p>
+                    <div class="seo-kind-button">
+                        <button>Забрать бонус<img src="img/icons8-pdf-20.png"></button>
+                        <button>Подробнее</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="seo-kind-row">
+                        <div class="seo-kind-img"></div>
+                        <h3>Локальное SEO <br>(продвижение в регионе)</h3>
+                    </div>
+                    <p>Поисковые системы постоянно улучшают качество выдачи для максимального соответствия результатов
+                        поиска запросу пользователя. Поэтому необходимо продвигать сайт комплексно и понимать вашу цель
+                        в
+                        продвижении.
+                    </p>
+                    <div class="seo-kind-button">
+                        <button>Забрать бонус<img src="img/icons8-pdf-20.png"></button>
+                        <button>Подробнее</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
 
         <!-- Nazarii -->
         <section class="ways-seo">
@@ -998,6 +2896,7 @@
     crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="slick/slick.min.js"></script>
+
     <script src="js/index.js"></script>
 
 </body>
