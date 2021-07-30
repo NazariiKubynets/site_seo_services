@@ -342,6 +342,7 @@ a.dropdown-item {
 .like-calculator div {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .like-calculator h3 {
@@ -389,6 +390,12 @@ a.dropdown-item {
 
 .like-calculator p {
     margin: 0px 30px;
+    color: rgba(99, 211, 55, 1);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 16px;
+    
 }
 
 
@@ -403,6 +410,7 @@ a.dropdown-item {
     margin-bottom: 175px;
     padding-top: 73px;
     padding-left: 119px;
+    margin-top: 220px;
 }
 
 .seo-form h2 {
@@ -663,7 +671,15 @@ button.carousel-control-prev {
     opacity: 1;
 }
 
+.carousel-control-prev-icon img {
+    margin-right: 5px;
+    height: 15px;
+}
 
+.carousel-control-next-icon img {
+    margin-left: 5px;
+    height: 15px;
+}
 
 ul.slick-dots {
     bottom: -55px;
@@ -1024,7 +1040,7 @@ ul.slick-dots {
 
 .ways-seo,.advertising-seo{
     width: 1142px;
-    margin-top: 190px;
+    margin-top: 240px;
 }
 
 .ways-seo-row,.advertising-seo-row{
@@ -1089,8 +1105,8 @@ ul.slick-dots {
 
 .img-info-stl{
   position: relative;
-  bottom: 10px;
-  right: 18px;
+  bottom: -12px;
+    right: 162px;
 }
 
 .list-a hr,.list-b hr,.list-c hr{
@@ -1535,6 +1551,7 @@ ul.slick-dots {
     display: flex;
     align-items: center;
     margin: 0;
+    float: none;
 }
 
 .classic-data-a p,.complex-data-b p,
