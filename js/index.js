@@ -1,4 +1,5 @@
 
+
   function openCity(evt, cityName) {
     var i, x, tablinks;
     x = document.getElementsByClassName("city");
@@ -18,3 +19,10 @@
       dots: true
     });
   });
+
+$(document).ready(function(){
+    $('.slider-profiles').slick({
+      dots: true
+    });
+  });
+
