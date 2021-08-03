@@ -214,10 +214,111 @@
             <h2>Калькулятор SEO продвижения</h2>
             <div class="calculator-row">
                 <div class="calculator">
+                  <div class="calculator-settings-row">
+                      <div class="question-one">
+                          <p class="question-one-text">
+                              1. Какое ваше ГЕО для SEO продвижения?
+                              <img class="img-info"src="img/info.png" alt="info">
+                          </p>
+                          <div class="choice-geo">
+                              <div class="dropdown">
+                                <button onclick="myFunction()" class="dropbtn">В конкретном городе или области</button>
+                                <div id="myDropdown" class="dropdown-content">
+                                  <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                                  <a href="#about">About</a>
+                                  <a href="#base">Base</a>
+                                  <a href="#blog">Blog</a>
+                                  <a href="#contact">Contact</a>
+                                  <a href="#custom">Custom</a>
+                                  <a href="#support">Support</a>
+                                  <a href="#tools">Tools</a>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="question-two">
+                          <p class="question-two-text">
+                              2. Есть ли у вас локальная точка где вы предоставляете свой товар/услугу?
+                              <img class="img-info"src="img/info.png" alt="info">
+                          </p>
+                          <div class="btn-row">
+                              <div class="question-two-btn-stl">
+                                  <input class="question-two-input" type="radio" name="radioBtn" id="RadioBtnYes" value="BtnYes">
+                              </div>
+                              <label class="label-one-txt" for="RadioBtnYes">Да</label>
 
+                              <div class="btn-two-stl question-two-btn-stl">
+                                  <input class="question-two-input" type="radio" name="radioBtn" id="RadioBtnNo" value="BtnNo">
+                              </div>
+                              <label class="label-two-txt" for="RadioBtnNo">Нет</label>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="question-three">
+                      <p class="question-three-text">3. Какие роботы проводились ранее по SEO?</p>
+                      <div class="question-three-choice">
+                          <div class="choice-column-a">
+                              <div class="choice-row-a">
+                                <div class="question-three-btn-stl">
+                                      <input class="question-three-input" type="checkbox" name="checkbox1" id="checkbox-a">
+                                </div>
+                                <label class="label-txt-a label-txt" for="checkbox-a">Техническая оптимизация сайта (оптизмиация разметки и кода)</label>
+                              </div>
+                              <div class="choice-row-a">
+                                <div class="question-three-btn-stl">
+                                      <input class="question-three-input" type="checkbox" name="checkbox2" id="checkbox-b">
+                                </div>
+                                <label class="label-txt-b label-txt" for="checkbox-b">Сбор семантического ядра и проработка структуры сайта</label>
+                              </div>
+                              <div class="choice-row-a">
+                                <div class="question-three-btn-stl">
+                                      <input class="question-three-input" type="checkbox" name="checkbox3" id="checkbox-c">
+                                </div>
+                                <label class="label-txt-c label-txt" for="checkbox-c">Покупка и продвижение сайта вечными ссылками</label>
+                              </div>
+                          </div>
+                          <div class="choice-column-b">
+                            <div class="choice-row-b">
+                              <div class="question-three-btn-stl">
+                                    <input class="question-three-input" type="checkbox" name="checkbox4" id="checkbox-d">
+                              </div>
+                              <label class="label-txt-d label-txt" for="checkbox-d">Написание статьей или контента для целевых <br>страниц под сбор трафика</label>
+                            </div>
+                            <div class="choice-row-b">
+                              <div class="question-three-btn-stl">
+                                    <input class="question-three-input" type="checkbox" name="checkbox5" id="checkbox-e">
+                              </div>
+                              <label class="label-txt-e label-txt" for="checkbox-e">Улучшение UX/UI и дизайна для увеличения <br>количества взаимодействий пользователя с сайтом</label>
+                            </div>
+                            <div class="choice-row-b">
+                              <div class="question-three-btn-stl">
+                                    <input class="question-three-input" type="checkbox" name="checkbox6" id="checkbox-f">
+                              </div>
+                              <label class="label-txt-f label-txt" for="checkbox-f">У меня новый сайт и ранее не проводились работы <br>по SEO продвижению</label>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
                 </div>
-                <div class="result-calculator">
-
+                <div class="result-calculator-block">
+                  <div class="result-calculator">
+                      <div class="result-calculator-column">
+                        <p class="calculator-title"><img class="img-info"src="img/info.png" alt="info">Результаты:</p>
+                        <p class="result-calculator-txt">Ваши примерные результаты через <b>6 месяцев</b> после старта продвижения:</p>
+                        <p class="result-calculator-price">~ $4000</p>
+                        <p class="result-calculator-txt">Ваши примерные результаты через <b>12 месяцев</b> после старта продвижения:</p>
+                        <p class="result-calculator-price">~ $12000</p>
+                        <div class="result-price-key">
+                            <p class="price-txt">Примерная стоимость продвижения под ключ:</p>
+                            <div class="price">~ $500/месяц</div>
+                            <p class="price-txt-down">от 5 до 7 месяцев</p>
+                        </div>
+                        <div class="calculate-btn">
+                            <p>Просчитать стоимость</p>
+                        </div>
+                      </div>
+                  </div>
+                  <p class="result-calculator-txt-down">Другие калькуляторы<img class="txt-arrow-left" src="img/txt-arrow-left.png" alt="txt-arrow-left"></p>
                 </div>
             </div>
             <div class="like-calculator">

@@ -20,7 +20,7 @@
 .slick-prev,
 .slick-next
 {
-  background: linear-gradient(149.74deg, #444444 10.44%, #1B1B1B 95.09%);
+    background: linear-gradient(149.74deg, #444444 10.44%, #1B1B1B 95.09%);
     border-radius: 100px;
     transform: rotate(180deg);
     width: 50px;

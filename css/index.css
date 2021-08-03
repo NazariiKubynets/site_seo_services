@@ -15,7 +15,7 @@
     max-width: 1140px;
     margin: auto;
     background-color: var(--main-color);
-    font-family: 'Montserrat', sans-serif;  
+    font-family: 'Montserrat', sans-serif;
 }
 
 #body {
@@ -38,7 +38,7 @@
     flex-direction: row;
     position: relative;
     right: 227px;
-    
+
 }
 
 .nav-section-b li.nav-item.dropdown {
@@ -75,7 +75,7 @@ a.navbar-brand {
 
 .nav-section-a button {
     color: var(--text-color);
-    background: linear-gradient(93.58deg, #404040 0.2%, #232323 100%);   
+    background: linear-gradient(93.58deg, #404040 0.2%, #232323 100%);
     box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.65), -5px -5px 25px #444444;
     border-radius: 100px;
     border: none;
@@ -115,7 +115,7 @@ a.dropdown-item {
 }
 
 .dropdown-item.active, .dropdown-item:active {
-    background: none;  
+    background: none;
 }
 
 .dropdown-item {
@@ -163,7 +163,7 @@ a.dropdown-item {
     background: linear-gradient(279.29deg, #FF732F 7.03%, #FBBC04 92.97%);
     box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.65), -5px -5px 25px #444444;
     border-radius: 100px;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -296,7 +296,7 @@ a.dropdown-item {
     display: grid;
     grid-template-columns: 349px 349px 349px;
     grid-column-gap: 25px;
-    
+
 }
 
 /* seo-calculator */
@@ -326,7 +326,7 @@ a.dropdown-item {
 
 .result-calculator {
     width: 320px;
-    height: 569px;
+    height: 592px;
     background: #202020;
     border-radius: 20px;
     margin-left: 30px;
@@ -379,7 +379,7 @@ a.dropdown-item {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: none;  
+    border: none;
 }
 
 
@@ -395,7 +395,7 @@ a.dropdown-item {
     font-weight: 500;
     font-size: 24px;
     line-height: 16px;
-    
+
 }
 
 
@@ -422,7 +422,7 @@ a.dropdown-item {
     font-weight: bold;
     font-size: 24px;
     line-height: 35px;
-    color: var(--text-color); 
+    color: var(--text-color);
 }
 
 .form-w-a {
@@ -613,7 +613,7 @@ button.carousel-control-prev {
 }
 
 .carousel-indicators [data-bs-target] {
-    box-sizing: content-box; 
+    box-sizing: content-box;
     flex:none;
     width: 12px;
     height: 12px;
@@ -621,7 +621,7 @@ button.carousel-control-prev {
     margin-right:0px;
     margin-left:0px;
     text-indent:0;
-    cursor: pointer; 
+    cursor: pointer;
     background-color:#333333;
     background-clip:none;
     border:none;
@@ -629,7 +629,7 @@ button.carousel-control-prev {
     border-bottom:none;
     opacity:1;
     transition:none;
-     
+
 }
 
 .border-dots {
@@ -639,12 +639,12 @@ button.carousel-control-prev {
     width: 13px;
     height: 13px;
     margin: 0 15px;
-    
+
 }
 
 .carousel-indicators button.active {
     box-shadow: inset -1px -1px 2px rgba(49, 49, 49, 0.5), inset 1px 1px 1px rgba(0, 0, 0, 0.82);
-    background: linear-gradient(99.29deg, #FF732F 6.83%, #FBBC04 92.77%); 
+    background: linear-gradient(99.29deg, #FF732F 6.83%, #FBBC04 92.77%);
     border-radius: 50%;
     width: 12px;
     height: 12px;
@@ -689,12 +689,12 @@ ul.slick-dots {
     box-shadow: -2.08332px -2.08332px 5.55553px rgba(49, 49, 49, 0.5), 2.08332px 2.08332px 5.55553px rgba(0, 0, 0, 0.82);
     border-radius: 50%;
     width: 13px;
-    height: 13px; 
+    height: 13px;
 }
 
 .slick-dots li {
     box-shadow: inset -1px -1px 2px rgba(49, 49, 49, 0.5), inset 1px 1px 1px rgba(0, 0, 0, 0.82);
-    border-radius: 50%;  
+    border-radius: 50%;
     background: #333333;
     width: 12px;
     height: 12px;
@@ -704,12 +704,12 @@ ul.slick-dots {
 .slick-dots li button:before {
     color:rgba(49, 49, 49, 0.5) ;
     font-size: 0px;
-    
+
 }
 
 .slick-dots li.slick-active button:before {
     box-shadow: inset -1px -1px 2px rgba(49, 49, 49, 0.5), inset 1px 1px 1px rgba(0, 0, 0, 0.82);
-    background: linear-gradient(99.29deg, #FF732F 6.83%, #FBBC04 92.77%); 
+    background: linear-gradient(99.29deg, #FF732F 6.83%, #FBBC04 92.77%);
     border-radius: 50%;
     width: 12px;
     height: 12px;
@@ -865,12 +865,12 @@ ul.slick-dots {
     margin-top: 35px;
     margin-bottom: 74px;
 }
-    
+
 .seo-kind-img {
     width: 88px;
     height: 88px;
     background: linear-gradient(279.29deg, #FF732F 7.03%, #FBBC04 92.97%);
-    border-radius: 10px;    
+    border-radius: 10px;
 }
 
 .seo-kind-row {
@@ -1014,8 +1014,8 @@ ul.slick-dots {
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
-    color: var(--text-color); 
-    margin-top: 15px;   
+    color: var(--text-color);
+    margin-top: 15px;
 }
 
 .seo-service-grid-b p {
@@ -1023,8 +1023,8 @@ ul.slick-dots {
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
-    color: rgba(198, 198, 198, 0.83);  
-    margin-top: 20px; 
+    color: rgba(198, 198, 198, 0.83);
+    margin-top: 20px;
 }
 
 /*.dropdown-toggle::after {
