@@ -83,7 +83,7 @@ a.navbar-brand {
     height: 40px;
 }
 
-a#navbarDropdownMenuLink {
+a.dropdown-toggle {
     color: var(--text-color);
 }
 
@@ -472,7 +472,7 @@ a.dropdown-item {
 
 /* FORM SEO */
 
-input#exampleFormControlInput1 {
+input#exampleFormControlInput1, input#exampleFormControlInput1-a, input#exampleFormControlInput1-b, input#exampleFormControlInput1-c {
     width: 250px;
     height: 50px;
     background: linear-gradient(93.58deg, #404040 0.2%, #232323 100%);
