@@ -145,9 +145,7 @@
     font-size: 18px;
     line-height: 19px;
     color: rgba(255, 255, 255, 0.83);
-    margin-top: 408px;
     margin-left: 27px;
-
 }
 
 .point-five {
@@ -156,7 +154,7 @@
     font-size: 18px;
     line-height: 19px;
     color: rgba(255, 255, 255, 0.83);
-    margin-top: 50px;
+    margin-top: 40px;
     margin-left: 27px;
 
 }
@@ -302,6 +300,394 @@
     display: flex;
     flex-direction: row;
 }
+
+/* Nazar */
+/* Результаты */
+.result-calculator-block{
+    width: 325px;
+    height: 600px;
+  }
+  
+  .result-calculator{
+    padding-top: 29px;
+  }
+  
+  .result-calculator-column{
+    margin-left: 27px;
+  }
+  
+  .calculator-title{
+    color: var(--text-color);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 25px;
+    margin-bottom: 24px
+    /* margin-top: 29px; */
+  }
+  
+  .calculator-title img{
+    margin-right: 5px;
+  }
+  
+  .result-calculator-txt{
+    color: rgba(255, 255, 255, 0.83);
+    width: 262px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .result-calculator-price{
+    background: linear-gradient(90deg, #37A000 0%, #63D337 58.75%);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 35px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .result-price-key{
+    width: 275px;
+    height: 130px;
+    background: var(--main-color);
+    border-radius: 15px;
+    padding-top: 16px;
+    margin-bottom: 34px;
+  }
+  
+  .price-txt{
+    color: rgba(255, 255, 255, 0.83);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0px 0px 10px 22px;
+  }
+  
+  .result-price-key div{
+    color: var(--text-color);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    margin-left: 22px;
+  }
+  
+  .price-txt-down{
+    color: rgba(255, 255, 255, 0.83);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    margin: 0;
+    margin-left: 80px;
+  }
+  
+  .calculate-btn{
+    width: 274px;
+    height: 50px;
+    background: linear-gradient(90deg, #37A000 0%, #63D337 58.75%);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.65), -5px -5px 25px #444444;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .calculate-btn p{
+    color: var(--text-color);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0;
+  }
+  
+  .result-calculator-txt-down{
+    color: rgba(255, 255, 255, 0.83);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: right;
+    text-decoration-line:underline;
+  }
+  
+  .txt-arrow-left{
+    width: 13.33px;
+    height: 8px;
+    margin-left: 5px;
+  }
+  
+  /* calculator-question-one */
+  
+  .calculator-settings-row{
+    display: flex;
+    flex-direction: row;
+    margin: 26px 0px 35px 24px;
+  }
+  
+  .question-one-text{
+    color: rgba(255, 255, 255, 0.83);
+    width: 289px;
+    height: 45px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  /* //////////////////// */
+  /* .choice-geo{
+    width: 250px;
+    height: 50px;
+    background: #444444;
+    border-radius: 10px;
+  } */
+  
+  /* .dropdown {
+    width: 250px;
+    height: 50px;
+    background: #444444;
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+  } */
+  .dropbtn {
+    width: 250px;
+    height: 50px;
+    background-color: #444444;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.71);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 11px 100px 11px 17px;
+  }
+  
+  .dropbtn:after{
+    background-image: url(../img/open-down.png);
+    width: 14.86px;
+    height: 8px;
+    background-size: 14.86px 8px;
+    display: inline-block;
+    content:"";
+    position: relative;
+    top: -7px;
+    right: -115px;
+  }
+  
+  #myInput {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myInput:focus {outline: 3px solid #ddd;}
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /*.dropdown a:hover {background-color: #ddd;} */
+  
+  .show {display: block;}
+  
+  /* ///////////////// */
+  
+  .question-two{
+    margin-left: 62px;
+  }
+  
+  .question-two-text{
+    width: 381px;
+    height: 46px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.83);
+    margin-bottom: 17px;
+  }
+  
+  .btn-row{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .question-two-btn-stl{
+    background: linear-gradient(149.74deg, #444444 10.44%, #1B1B1B 95.09%);
+    border-radius: 100px;
+    transform: rotate(180deg);
+    width: 30px;
+    height: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .question-two-input[type=radio]{
+    width: 28.03px;
+    height: 28.03px;
+    background: linear-gradient(338.08deg, #444444 6.7%, #262626 90.13%);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -5px -5px 30px rgba(0, 0, 0, 0.75), 5px 5px 30px #505050;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
+  .question-two-input:checked[type=radio] {
+      background: linear-gradient(99.29deg, #fbbc04 6.83%, #ff732f 92.77%);
+      border: none;
+  }
+  
+  .label-one-txt{
+    color: rgba(255, 255, 255, 0.71);
+    width: 20px;
+    height: 11px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 11px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .btn-two-stl{
+    margin-left: 82px;
+  }
+  
+  .label-two-txt{
+    color: rgba(255, 255, 255, 0.71);
+    width: 29px;
+    height: 11px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 11px;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  
+  .question-three{
+    margin-left: 27px;
+    margin-bottom: 20px;
+  }
+  
+  .question-three-text{
+    color: rgba(255, 255, 255, 0.83);
+    width: 435px;
+    height: 19px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .question-three-choice,.choice-row-a,.choice-row-b{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .question-three-btn-stl{
+    background: linear-gradient(149.74deg, #444444 10.44%, #1B1B1B 95.09%);
+    border-radius: 8px;
+    transform: rotate(180deg);
+    width: 30px;
+    height: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .question-three-input[type=checkbox]{
+    width: 28.03px;
+    height: 28.03px;
+    background: linear-gradient(338.08deg, #444444 6.7%, #262626 90.13%);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -5px -5px 30px rgba(0, 0, 0, 0.75), 5px 5px 30px #505050;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
+  .question-three-input:checked[type=checkbox] {
+  
+      background: linear-gradient(99.29deg, #fbbc04 6.83%, #ff732f 92.77%);
+      border: none;
+  }
+  
+  .question-three-input:checked[type=checkbox]:after{
+      content:url("../img/checkbox-tick.png");
+  }
+  
+  .choice-column-b{
+    margin-left: 70px;
+  }
+  
+  .label-txt-a,.label-txt-b,.label-txt-c{
+    width: 211px;
+  }
+  
+  .label-txt-d,.label-txt-e,.label-txt-f{
+    width: 341px;
+  }
+  
+  .label-txt{
+    color: rgba(255, 255, 255, 0.71);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: 15px;
+    margin-bottom: 27px;
+  }
+  
 
   
 
