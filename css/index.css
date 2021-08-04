@@ -2028,8 +2028,6 @@ ul.slick-dots {
 .scrollup-border img {
     transform: rotate(90deg);
     position: relative;
-    top: 1px;
-    left: 1px;
 }
 
 
