@@ -19,6 +19,16 @@
   });
 
 
+  var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+// output.innerHTML = slider.value; // Display the default slider value
+
+// Update the current slider value (each time you drag the slider handle)
+slider.oninput = function() {
+    output.innerHTML = this.value;
+}
+
+
   function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
@@ -40,3 +50,24 @@
       }
     }
   }
+
+
+  /* scroll button */
+
+$(function () {
+  $('.scrollup').click(function () {
+      $("html, body").animate({
+          scrollTop: 0
+      }, 200);
+  })
+})
+
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 200) {
+      $('.scrollup').fadeIn();
+  }
+  else {
+      $('.scrollup').fadeOut();
+  }
+});
+
