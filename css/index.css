@@ -1053,7 +1053,7 @@ ul.slick-dots {
     color: var(--text-color);
     font-style: normal;
     font-weight: bold;
-    font-size: 38px;
+    font-size: 34px;
     line-height: 45px;
     margin-bottom: 35px;
 }
@@ -1080,7 +1080,7 @@ ul.slick-dots {
     font-size: 28px;
     line-height: 35px;
     margin-bottom: 11px;
-    margin-top: 50px;
+    margin-top: 34px;
 }
 
 .txt-tariffs p,.txt-seo_or_context p{
@@ -1107,7 +1107,7 @@ ul.slick-dots {
 .img-info-stl{
   position: relative;
   bottom: -12px;
-    right: 162px;
+    right: 190px;
 }
 
 .list-a hr,.list-b hr,.list-c hr{
@@ -1322,6 +1322,7 @@ ul.slick-dots {
     line-height: 19px;
     text-align: center;
     color: #EEF0F5;
+    text-decoration: none;
 }
 
 .background-btn{
@@ -1345,22 +1346,25 @@ ul.slick-dots {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
-.btn-list a{
+.btn-list span{
     width: 357px;
     height: 15px;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    text-decoration: none;
+
     color: rgba(255, 255, 255, 0.83);
 }
 
-.img-arrow-duwn{
-    width: 16px;
-    height: 2;
+.img-arrow-down{
+    width: 20px;
+    height: 15px;
+    position: relative;
+    top: 2px;
 }
 
 /* SEO и контекстная реклама */
@@ -1389,6 +1393,7 @@ ul.slick-dots {
 .seo-promotion p,.сontextual-advertising p{
     color: rgba(255, 255, 255, 0.71);
     width: 555px;
+    height: 33px;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -1401,8 +1406,8 @@ ul.slick-dots {
 
 .txt-seo-context-row hr{
     width: 555px;
-    height: 3px;
-    background: #444444;
+    height: 1px;
+    background: #666666;
     border-radius: 100px;
     margin: 0;
 }
