@@ -1291,7 +1291,7 @@ ul.slick-dots {
     margin: 0px;
 }
 
-.list-a p{
+.list-a p, .info-style{
     color: rgba(255, 255, 255, 0.71);
     width: 300px;
     font-style: normal;
@@ -1313,7 +1313,7 @@ ul.slick-dots {
     margin-bottom: 15px;
 }
 
-.list-c p{
+.list-c p, .info-style-a{
     color: rgba(255, 255, 255, 0.71);
     width: 300px;
     font-style: normal;
@@ -1324,11 +1324,10 @@ ul.slick-dots {
     margin-bottom: 15px;
 }
 
-.list-txt-b p,.list-txt-c p{
+.list-txt-b p,.list-txt-c p, .info-style-a{
     position: relative;
     margin-top: 1.5px;
     margin-bottom: 2.5px;
-
 }
 
 .btn-get-a,.btn-get-b,.btn-get-c {
@@ -1574,7 +1573,7 @@ ul.slick-dots {
     width: 204px;;
 }
 
-.advantages-list p{
+.advantages-list p, .info-style-b {
     color: rgba(255, 255, 255, 0.71);
     width: 437px;
     height: 60px;
@@ -1587,6 +1586,12 @@ ul.slick-dots {
     margin: 0;
     float: none;
 }
+
+.info-style-b span {
+    margin-right: 5px;
+}
+
+
 
 .classic-data-a p,.complex-data-b p,
 .etavrian-data-c p{
