@@ -236,13 +236,13 @@
     line-height: 19px;
     color: rgba(255, 255, 255, 0.83);
     margin-top: 40px;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .input-group {
     width: 250px;
     height: 50px;
-    margin-left: 50px;
+    margin-left: 30px;
     margin-top: 19px;
 }
 
@@ -299,6 +299,13 @@
 .footer-calcul-row {
     display: flex;
     flex-direction: row;
+}
+
+.save-send-calculator button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.1828px;
+  line-height: 9px;
 }
 
 /* Nazar */
@@ -482,8 +489,8 @@
     display: inline-block;
     content:"";
     position: relative;
-    top: -7px;
-    right: -115px;
+    top: -22px;
+    right: -190px;
   }
   
   #myInput {
@@ -687,6 +694,8 @@
     margin-left: 15px;
     margin-bottom: 27px;
   }
+
+  
   
 
   
