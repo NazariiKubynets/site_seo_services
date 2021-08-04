@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root {
 
     font-family: 'Montserrat', sans-serif;
@@ -19,8 +19,8 @@
     margin: auto;
     background-color: var(--main-color);
 
-    font-family: 'Montserrat', sans-serif;  
-    
+    font-family: 'Montserrat', sans-serif;
+
 
 }
 
@@ -140,11 +140,11 @@ a.dropdown-item {
     background-image: url(../img/nav.jpg);
     background-size: 15px 8px;
     display: inline-block;
-    width: 15px; 
+    width: 15px;
     height: 8px;
     content:"";
-    border: none; 
-    position: relative; 
+    border: none;
+    position: relative;
     top: 4px;
 }
 
@@ -321,7 +321,7 @@ a.dropdown-item {
     display: grid;
     grid-template-columns: 349px 349px 349px;
 
-    grid-column-gap: 25px; 
+    grid-column-gap: 25px;
 }
 
 .seo-list-c a {
@@ -1349,21 +1349,17 @@ ul.slick-dots {
     box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.65), -5px -5px 25px #444444;
     border-radius: 100px;
     margin-top: 34.88px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border: none;
 }
 
-.btn-get-a a,.btn-get-b a,.btn-get-c a{
+.btn-get-a span,.btn-get-b span,.btn-get-c span{
     width: 213px;
     height: 15px;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
-    text-align: center;
     color: #EEF0F5;
-    text-decoration: none;
 }
 
 .background-btn{
@@ -1685,22 +1681,16 @@ ul.slick-dots {
     box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.65), -5px -5px 25px #444444;
     border-radius: 100px;
     margin-top: 55px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border: none;
 }
 
-.btn-choose-a a,.btn-choose-b a,
-.btn-choose-c a{
+.btn-choose-a span,.btn-choose-b span,
+.btn-choose-c span{
     color: #EEF0F5;
-    width: 158.58px;
-    height: 15px;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
-    text-decoration: none;
-    text-align: center;
 }
 
 .btn-choose-a{
@@ -1885,7 +1875,7 @@ ul.slick-dots {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75), -10px -10px 15px rgba(49, 49, 49, 0.5);
     border-radius: 20px;
     padding: 25px 57px;
-    
+
 }
 
 /* Links inside the dropdown */
@@ -2052,7 +2042,7 @@ ul.slick-dots {
     display: inline-block;
     opacity: 1;
   }
-  
+
   .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
@@ -2069,7 +2059,7 @@ ul.slick-dots {
     left: 50%;
     margin-left: -60px;
   }
-  
+
   .tooltip .tooltiptext::after {
     content: "";
     position: absolute;
@@ -2080,7 +2070,7 @@ ul.slick-dots {
     border-style: solid;
     border-color: #2c2c2c transparent transparent transparent;
   }
-  
+
   .tooltip:hover .tooltiptext {
     visibility: visible;
   }
