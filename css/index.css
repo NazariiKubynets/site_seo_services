@@ -1337,12 +1337,10 @@ ul.slick-dots {
     box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.65), -5px -5px 25px #444444;
     border-radius: 100px;
     margin-top: 34.88px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border: none;
 }
 
-.btn-get-a a,.btn-get-b a,.btn-get-c a{
+.btn-get-a span,.btn-get-b span,.btn-get-c span{
     width: 213px;
     height: 15px;
     font-style: normal;
@@ -1676,13 +1674,11 @@ ul.slick-dots {
     box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.65), -5px -5px 25px #444444;
     border-radius: 100px;
     margin-top: 55px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border: none;
 }
 
-.btn-choose-a a,.btn-choose-b a,
-.btn-choose-c a{
+.btn-choose-a span,.btn-choose-b span,
+.btn-choose-c span{
     color: #EEF0F5;
     width: 158.58px;
     height: 15px;
