@@ -1,4 +1,6 @@
+
 /* calculator */ 
+
 
 /*generated with Input range slider CSS style generator (version 20210711)
 https://toughengineer.github.io/demo/slider-styler*/
@@ -114,13 +116,13 @@ https://toughengineer.github.io/demo/slider-styler*/
     box-shadow: -2.08332px -2.08332px 5.55553px rgba(49, 49, 49, 0.5), 2.08332px 2.08332px 5.55553px rgba(0, 0, 0, 0.82);
 }
 
-.form-check div { 
+.form-check div {
     width: 34px;
     height: 34px;
     background: #333333;
     box-shadow: -2.08332px -2.08332px 5.55553px rgba(49, 49, 49, 0.5), 2.08332px 2.08332px 5.55553px rgba(0, 0, 0, 0.82);
     border-radius: 50px;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,7 +170,7 @@ https://toughengineer.github.io/demo/slider-styler*/
     color: rgba(255, 255, 255, 0.83);
     margin-top: 40px;
     margin-left: 27px;
-    
+
 }
 
 .point-four {
@@ -220,7 +222,7 @@ https://toughengineer.github.io/demo/slider-styler*/
     display: flex;
     justify-content: center;
     align-items: center;
-    border: none; 
+    border: none;
     opacity: .83;
 }
 
@@ -302,7 +304,7 @@ https://toughengineer.github.io/demo/slider-styler*/
     border: none;
 }
 
-/* footer */ 
+/* footer */
 
 .save-send-calculator {
     margin-left: 100px;
@@ -346,15 +348,15 @@ https://toughengineer.github.io/demo/slider-styler*/
     width: 325px;
     height: 600px;
   }
-  
+
   .result-calculator{
     padding-top: 29px;
   }
-  
+
   .result-calculator-column{
     margin-left: 27px;
   }
-  
+
   .calculator-title{
     color: var(--text-color);
     font-style: normal;
@@ -364,11 +366,11 @@ https://toughengineer.github.io/demo/slider-styler*/
     margin-bottom: 24px
     /* margin-top: 29px; */
   }
-  
+
   .calculator-title img{
     margin-right: 5px;
   }
-  
+
   .result-calculator-txt{
     color: rgba(255, 255, 255, 0.83);
     width: 262px;
@@ -378,7 +380,7 @@ https://toughengineer.github.io/demo/slider-styler*/
     line-height: 20px;
     margin-bottom: 15px;
   }
-  
+
   .result-calculator-price{
     background: linear-gradient(90deg, #37A000 0%, #63D337 58.75%);
     font-style: normal;
@@ -389,7 +391,7 @@ https://toughengineer.github.io/demo/slider-styler*/
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  
+
   .result-price-key{
     width: 275px;
     height: 130px;
@@ -398,7 +400,7 @@ https://toughengineer.github.io/demo/slider-styler*/
     padding-top: 16px;
     margin-bottom: 34px;
   }
-  
+
   .price-txt{
     color: rgba(255, 255, 255, 0.83);
     font-style: normal;
@@ -407,7 +409,7 @@ https://toughengineer.github.io/demo/slider-styler*/
     line-height: 20px;
     margin: 0px 0px 10px 22px;
   }
-  
+
   .result-price-key div{
     color: var(--text-color);
     font-style: normal;
@@ -416,7 +418,7 @@ https://toughengineer.github.io/demo/slider-styler*/
     line-height: 27px;
     margin-left: 22px;
   }
-  
+
   .price-txt-down{
     color: rgba(255, 255, 255, 0.83);
     font-style: normal;
@@ -426,7 +428,7 @@ https://toughengineer.github.io/demo/slider-styler*/
     margin: 0;
     margin-left: 80px;
   }
-  
+
   .calculate-btn{
     width: 274px;
     height: 50px;
@@ -437,7 +439,7 @@ https://toughengineer.github.io/demo/slider-styler*/
     justify-content: center;
     align-items: center;
   }
-  
+
   .calculate-btn p{
     color: var(--text-color);
     font-style: normal;
@@ -446,7 +448,7 @@ https://toughengineer.github.io/demo/slider-styler*/
     line-height: 19px;
     margin: 0;
   }
-  
+
   .result-calculator-txt-down{
     color: rgba(255, 255, 255, 0.83);
     font-style: normal;
@@ -456,21 +458,21 @@ https://toughengineer.github.io/demo/slider-styler*/
     text-align: right;
     text-decoration-line:underline;
   }
-  
+
   .txt-arrow-left{
     width: 13.33px;
     height: 8px;
     margin-left: 5px;
   }
-  
+
   /* calculator-question-one */
-  
+
   .calculator-settings-row{
     display: flex;
     flex-direction: row;
     margin: 26px 0px 35px 24px;
   }
-  
+
   .question-one-text{
     color: rgba(255, 255, 255, 0.83);
     width: 289px;
@@ -487,7 +489,7 @@ https://toughengineer.github.io/demo/slider-styler*/
     background: #444444;
     border-radius: 10px;
   } */
-  
+
   /* .dropdown {
     width: 250px;
     height: 50px;
@@ -512,7 +514,7 @@ https://toughengineer.github.io/demo/slider-styler*/
     line-height: 15px;
     padding: 11px 100px 11px 17px;
   }
-  
+
   .dropbtn:after{
     background-image: url(../img/open-down.png);
     width: 14.86px;
@@ -524,10 +526,12 @@ https://toughengineer.github.io/demo/slider-styler*/
     top: -22px;
     right: -190px;
   }
-  
+
   #myInput {
     box-sizing: border-box;
+
     /*background-image: url('searchicon.png');*/
+
     background-position: 14px 12px;
     background-repeat: no-repeat;
     font-size: 15px;
@@ -535,14 +539,14 @@ https://toughengineer.github.io/demo/slider-styler*/
     border: none;
     border-bottom: 1px solid #444444;
   }
-  
+
   #myInput:focus {outline: 3px solid #ddd;}
-  
+
   .dropdown {
     position: relative;
     display: inline-block;
   }
-  
+
   .dropdown-content {
     display: none;
     position: absolute;
@@ -553,24 +557,26 @@ https://toughengineer.github.io/demo/slider-styler*/
   /*border: 1px solid #444444;*/
     z-index: 1;
   }
-  
+
   .dropdown-content a {
     color: var(--text-color);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
+
   
   .dropdown a:hover {background-color: #ddd;} 
   
+
   .show {display: block;}
-  
+
   /* ///////////////// */
-  
+
   .question-two{
     margin-left: 62px;
   }
-  
+
   .question-two-text{
     width: 381px;
     height: 46px;
@@ -581,12 +587,12 @@ https://toughengineer.github.io/demo/slider-styler*/
     color: rgba(255, 255, 255, 0.83);
     margin-bottom: 17px;
   }
-  
+
   .btn-row{
     display: flex;
     flex-direction: row;
   }
-  
+
   .question-two-btn-stl{
     background: linear-gradient(149.74deg, #444444 10.44%, #1B1B1B 95.09%);
     border-radius: 100px;
@@ -598,7 +604,7 @@ https://toughengineer.github.io/demo/slider-styler*/
     justify-content: center;
     align-items: center;
   }
-  
+
   .question-two-input[type=radio]{
     width: 28.03px;
     height: 28.03px;
@@ -612,12 +618,12 @@ https://toughengineer.github.io/demo/slider-styler*/
     -moz-appearance: none;
     appearance: none;
   }
-  
+
   .question-two-input:checked[type=radio] {
       background: linear-gradient(99.29deg, #fbbc04 6.83%, #ff732f 92.77%);
       border: none;
   }
-  
+
   .label-one-txt{
     color: rgba(255, 255, 255, 0.71);
     width: 20px;
@@ -632,11 +638,11 @@ https://toughengineer.github.io/demo/slider-styler*/
     align-items: center;
     margin-top: 10px;
   }
-  
+
   .btn-two-stl{
     margin-left: 82px;
   }
-  
+
   .label-two-txt{
     color: rgba(255, 255, 255, 0.71);
     width: 29px;
@@ -648,12 +654,12 @@ https://toughengineer.github.io/demo/slider-styler*/
     margin-left: 15px;
     margin-top: 10px;
   }
-  
+
   .question-three{
     margin-left: 27px;
     margin-bottom: 20px;
   }
-  
+
   .question-three-text{
     color: rgba(255, 255, 255, 0.83);
     width: 435px;
@@ -664,12 +670,12 @@ https://toughengineer.github.io/demo/slider-styler*/
     line-height: 25px;
     margin-bottom: 25px;
   }
-  
+
   .question-three-choice,.choice-row-a,.choice-row-b{
     display: flex;
     flex-direction: row;
   }
-  
+
   .question-three-btn-stl{
     background: linear-gradient(149.74deg, #444444 10.44%, #1B1B1B 95.09%);
     border-radius: 8px;
@@ -681,7 +687,7 @@ https://toughengineer.github.io/demo/slider-styler*/
     justify-content: center;
     align-items: center;
   }
-  
+
   .question-three-input[type=checkbox]{
     width: 28.03px;
     height: 28.03px;
@@ -695,29 +701,29 @@ https://toughengineer.github.io/demo/slider-styler*/
     -moz-appearance: none;
     appearance: none;
   }
-  
+
   .question-three-input:checked[type=checkbox] {
-  
+
       background: linear-gradient(99.29deg, #fbbc04 6.83%, #ff732f 92.77%);
       border: none;
   }
-  
+
   .question-three-input:checked[type=checkbox]:after{
       content:url("../img/checkbox-tick.png");
   }
-  
+
   .choice-column-b{
     margin-left: 70px;
   }
-  
+
   .label-txt-a,.label-txt-b,.label-txt-c{
     width: 211px;
   }
-  
+
   .label-txt-d,.label-txt-e,.label-txt-f{
     width: 341px;
   }
-  
+
   .label-txt{
     color: rgba(255, 255, 255, 0.71);
     font-style: normal;
@@ -727,9 +733,3 @@ https://toughengineer.github.io/demo/slider-styler*/
     margin-left: 15px;
     margin-bottom: 27px;
   }
-
-  
-  
-
-  
-
