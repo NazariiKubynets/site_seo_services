@@ -2070,3 +2070,145 @@ ul.slick-dots {
   .tooltip:hover .tooltiptext {
     visibility: visible;
   }
+
+
+
+  @media (min-device-width : 768px) and (max-device-width : 1160px) {
+
+    #main {
+        max-width: 768px;
+        margin: auto;
+    }
+
+    /* seo */
+
+    .seo-img {
+        max-width: 370px;
+        height: auto;
+    }
+
+    .seo-title {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .seo-text p {
+        font-size: 12px;
+        margin-top: 49px;
+        line-height: 17.4px;
+        
+        margin-bottom: 0px;
+    }
+
+    .btn-give-bonus {
+        width: 157px;
+        margin: 33px 0px 0px 20px;
+        height: 34px;
+    }
+
+    .btn-get-free {
+        width: 157px;
+        margin: 33px 0px 0px 0px;
+        height: 34px;
+    }
+
+    .btn-get-free a {
+        font-size: 12px;
+    }
+
+    .btn-give-bonus a {
+        font-size: 12px;
+    }
+
+    .btn-give-bonus a img {
+        width: 22px;
+    }
+
+    .seo-image p {
+        font-size: 8px;
+    }
+
+    /* seo-row 8*/
+
+    .seo-row-c {
+        margin-top: 124px;
+    }
+
+    .seo-img img {
+        width: 310px;
+        height: 243px;
+    }
+
+    .seo-subtitle {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 18   px;
+    }
+
+    .seo-txt {
+        margin-left: 32px;
+    }
+
+    .seo-txt p {
+        font-size: 11px;
+        line-height: 17px;
+        margin-bottom: 18px;
+    }
+
+    .seo-subtitle-c {
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 18px;
+
+    }
+
+    /* seo-list */
+
+    .seo-list {
+        width: 768px;
+        height: 194px;
+        padding: 19px 30px 0px 30px;
+    }
+
+    .seo-list h2 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 16px;
+    }
+
+    .seo-list-c {
+        grid-template-columns: 233px 233px 233px;
+        grid-column-gap: 17px;  
+    }
+
+    .seo-list-c a {
+        font-size: 11px;
+        line-height: 17px;
+    }
+
+    .seo-list-href {
+        margin-bottom: 0px;
+    }
+
+
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+     
+    
+    #main {
+        max-width: 320px;
+        margin: auto;
+    }
+
+    .seo-row {
+        flex-direction: column;
+    }
+
+    .seo-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
