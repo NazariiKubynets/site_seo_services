@@ -846,31 +846,31 @@ ul.slick-dots {
 #London img.tabs-vector{
     position: relative;
     top: -45px;
-    right: 59px;
+    right: 71px;
 }
 
 #Paris img.tabs-vector {
     position: relative;
     top: -45px;
-    left: 213px;
+    left: 203px;
 }
 
 #Tokyo img.tabs-vector {
     position: relative;
     top: -45px;
-    left: 433px;
+    left: 423px;
 }
 
 #Kalush img.tabs-vector {
     position: relative;
     top: -45px;
-    left: 659px;
+    left: 649px;
 }
 
 #Frank img.tabs-vector {
     position: relative;
     top: -45px;
-    left: 907px;
+    left: 897px;
 }
 
 /* seo-kind */
@@ -2168,6 +2168,8 @@ ul.slick-dots {
         width: 768px;
         height: 194px;
         padding: 19px 30px 0px 30px;
+        margin-top: 90px;
+        margin-bottom: 117px;
     }
 
     .seo-list h2 {
@@ -2189,6 +2191,233 @@ ul.slick-dots {
     .seo-list-href {
         margin-bottom: 0px;
     }
+
+    /* seo-form */
+
+    .seo-form {
+        width: 768px;
+        height: 201px;
+        margin-top: 147px;
+        margin-bottom: 117px;
+        padding-top: 49px;
+        padding-left: 80px;
+    }
+
+    .seo-form h2 {
+        width: 613px;
+        height: 52px;
+        font-size: 16px;
+        line-height: 23.5px;
+        margin-right: 71px;
+    }
+
+    input#exampleFormControlInput1, input#exampleFormControlInput1-a, input#exampleFormControlInput1-b, input#exampleFormControlInput1-c {
+        width: 167.5px;
+        height: 33.5px;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 13px;
+        margin-right: 24px;
+        padding: 11px 0px 12.7px 19px;
+    }
+
+    label.form-label {
+        font-size: 7px;
+        line-height: 8px;
+        font-weight: 400;
+        left: 20px;
+    }
+
+    button.btn.btn-primary {
+        width: 214px;
+        height: 33.5px;
+        margin-left: 15.4px;
+        margin-top: 26.4px;
+        font-size: 11px;
+    }
+
+    .txt-under-btn {
+        font-weight: 335;
+        font-size: 7px;
+        line-height: 7px;
+        width: 174px;
+        height: 14px;
+        margin-left: 415px;
+        top: -13.16px;
+    }
+
+    .txt-under-btn-c {
+        font-size: 8px;
+        line-height: 8px;
+        font-weight: 335;
+        margin-top: 16px;
+    }
+
+    /* tabs */ 
+    
+    .seo-tabs h1 {
+        margin-top: 147px;
+        margin-bottom: 48px;
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .w3-button {
+        width: 134px;
+        height: 34px;
+        margin-bottom: 17.4px;
+    }
+
+    .w3-bar {
+        font-weight: 401;
+        font-size: 10px;
+        line-height: 13px;
+    } 
+
+    .w3-container {
+        width: 768px;
+        height: 265px;
+        padding: 16px 9.4px 16px 14px;
+        margin-bottom: 117px;
+    }
+
+    .tabs-row img {
+        width: 182px;
+        height: 204px;
+    }
+
+    .tabs-row p {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 17.4px;
+        margin-left: 15.4px;
+        margin-right: 13.4px;
+    }
+
+    .city h2 {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+    .tabs-row {
+        height: 204px;
+    }
+
+    
+
+    #London img.tabs-vector{
+        width: 50px;
+        height: 21px;
+        top: -30px;
+        right: 48px;
+    }
+    
+    #Paris img.tabs-vector {
+        width: 50px;
+        height: 21px;
+        top: -30px;
+        left: 137px;
+    }
+    
+    #Tokyo img.tabs-vector {
+        width: 50px;
+        height: 21px;
+        top: -30px;
+        left: 287px;
+    }
+    
+    #Kalush img.tabs-vector {
+        width: 50px;
+        height: 21px;
+        top: -30px;
+        left: 436px;
+    }
+    
+    #Frank img.tabs-vector {
+        width: 50px;
+        height: 21px;
+        top: -30px;
+        left: 605px;
+    }
+
+    /* corusel */ 
+
+    .seo-carousel {
+        width: 768px;
+        height: 630px;
+    }
+
+    .seo-carousel h2 {
+        font-size: 23px;
+        line-height: 30px;
+        width: 768px;
+        height: 53px;
+    }
+
+    .seo-carousel p {
+        font-size: 11px;
+        line-height: 17px;
+        margin-top: 32px;
+        width: 712px;
+        height: 65px;
+    }
+
+    .carousel-h3 {
+        margin-top: 33.5px;
+        margin-bottom: 15px;    
+    }
+
+    .carousel-h3 h3{
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+    .carousel-item img {
+        height: 360px;
+    }
+
+    button.carousel-control-next {
+        width: 134px;
+
+    }
+
+    button.carousel-control-prev {
+        width: 134px;
+    }
+
+    .carousel-control-next-icon {
+        font-size: 12px;
+        top: 209px;
+    }
+
+    .carousel-control-prev-icon {
+        font-size: 12px;
+        top: 209px;
+    }
+
+    .border-dots {
+        width: 10px;
+        height: 10px;
+        margin: 0 10px;  
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 9px;
+        height: 9px;
+        top: -7px;
+    }
+
+    .carousel-indicators button.active {
+        width: 9px;
+        height: 9px;
+    }
+
+    .carousel-indicators {
+        bottom: -47px;
+    }
+
+
+
 
 
 }
