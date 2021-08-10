@@ -2683,6 +2683,13 @@ ul.slick-dots {
 
     /* seo */
 
+    
+
+    .seo-text p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
     .seo-row {
         flex-direction: column;
     }
@@ -2695,6 +2702,13 @@ ul.slick-dots {
     .btn-get-free {
         margin-bottom: 30px;
         margin-top: 30px;
+        height: 40px;
+    } 
+
+    .btn-give-bonus {
+        margin-bottom: 30px;
+        margin-top: 30px;
+        height: 40px;
     }
 
     .seo-title {
@@ -2708,7 +2722,8 @@ ul.slick-dots {
     /* seo */
 
     .seo-txt p {
-        font-size: 12px;
+        font-size: 14px;
+        width: 267px;
     }
 
     .seo-row-c {
@@ -2722,6 +2737,10 @@ ul.slick-dots {
 
     .seo-txt {
         margin-left: 0px;
+        display: flex;
+    
+    flex-direction: column;
+    align-items: center;
     }
 
     .seo-subtitle {
@@ -2732,6 +2751,7 @@ ul.slick-dots {
 
     .seo-list-c {
         grid-template-columns: 260px;
+        
     }
 
     .seo-list {
@@ -2745,6 +2765,169 @@ ul.slick-dots {
 
     .seo-list-c a {
         font-size: 13px;
+    }
+
+    /* seo-form */
+
+    .seo-form {
+        width: 315px;
+        height: 388px;
+        padding: 25px 30px
+    }
+
+    .seo-form-c {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seo-form h2 {
+        width: 279px;
+        height: 85px;
+        font-size: 19.8px;
+        margin-bottom: 55px;
+    }
+
+    .mb-3 {
+        height: 30px;
+    }
+
+    input#exampleFormControlInput1, input#exampleFormControlInput1-a, input#exampleFormControlInput1-b, input#exampleFormControlInput1-c {
+        margin: 0px;
+        width: 250px;
+        font-size: 13px;
+        height: 40px;
+    }
+
+    button.btn.btn-primary {
+        width: 250px;
+        margin-left: 0px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .mb-3 {
+        margin-bottom: 30px !important;
+    }
+
+    .txt-under-btn {
+        margin-left: 27px;
+        top: 1.84px;
+    }
+
+    label.form-label {
+        font-size: 11px;
+        top: 13px;
+    }
+
+    .txt-under-btn-c {
+        margin-top: 30px;
+        position: relative;
+        left: 24px;
+    }
+
+    /* seo-carousel */
+
+    .seo-carousel {
+        width: 315px;
+    }
+
+    .carousel-item img {
+        height: 200px;
+    }
+
+    .seo-carousel h2 {
+        width: 315px;
+        height: 120px
+    }
+    
+    .seo-carousel p {
+        width: 315px;
+        height: 115px;
+        font-size: 14px;
+    }
+
+    .carousel-h3 h3 {
+        font-size: 15px;
+    }
+
+    .border-dots {
+        margin: 0px 8px;
+    }
+
+    .carousel-control-next-icon {
+        display: none;
+    }
+
+    .carousel-control-prev-icon {
+        display: none;
+    }
+
+    /* seo-servive */
+
+    .seo-service-a p {
+        font-size: 14px;
+    }
+
+    .seo-service-img {
+        width: 315px;
+        height: 173px;
+    }
+
+    .seo-service-grid {
+        grid-template-columns: 315px;
+        grid-row-gap: 30px;
+    }
+
+    .seo-service-grid h3 {
+        font-size: 17px;
+    }
+
+    .seo-service-b p {
+        font-size: 14px;
+    }
+
+    .seo-service-grid-b {
+        grid-template-columns: 315px;
+        grid-row-gap: 30px;
+    }
+
+    .seo-service-grid-b h3 {
+        font-size: 17px;
+    }
+
+    .seo-service-image {
+        width: 204px;
+        height: 204px;
+    }
+
+    .mobile-a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* seo-kind */
+
+    .seo-kind-txt {
+        font-size: 14px;
+    }
+
+    .seo-kind-grid {
+        grid-template-columns: 315px;
+    }
+
+    .seo-kind-grid p {
+        font-size: 14px;
+    }
+
+    .seo-kind-grid button {
+        font-size: 12px;
+    }
+
+    .seo-kind-row h3 {
+        font-size: 17px;
     }
 }
 
