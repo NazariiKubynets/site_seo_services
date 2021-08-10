@@ -1,3 +1,4 @@
+
   function openCity(evt, cityName) {
     var i, x, tablinks;
     x = document.getElementsByClassName("city");
@@ -78,4 +79,12 @@ for (let e of document.querySelectorAll('input[type="range"].slider-progress')) 
   e.style.setProperty('--max', e.max == '' ? '100' : e.max);
   e.addEventListener('input', () => e.style.setProperty('--value', e.value));
 }
+
+
+
+
+
+
+
+
 
