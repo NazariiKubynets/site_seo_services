@@ -2722,6 +2722,10 @@ ul.slick-dots {
     margin-top: 6px;
   }
 
+  .accordion-item:last-of-type .accordion-collapse{
+    border-radius: 20px;
+  }
+
   .accordion-body {
     padding: 10px 10px;
   }
