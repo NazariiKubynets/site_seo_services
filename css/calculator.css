@@ -1,5 +1,5 @@
 
-/* calculator */ 
+/* calculator */
 
 
 /*generated with Input range slider CSS style generator (version 20210711)
@@ -51,7 +51,7 @@ https://toughengineer.github.io/demo/slider-styler*/
     height: 25px;
     outline: none;
     background: none;
-    border-radius: 57.9618px; 
+    border-radius: 57.9618px;
 }
 
 .sliderr::-webkit-slider-thumb {
@@ -565,9 +565,9 @@ https://toughengineer.github.io/demo/slider-styler*/
     display: block;
   }
 
-  
-  .dropdown a:hover {background-color: #ddd;} 
-  
+
+  .dropdown a:hover {background-color: #ddd;}
+
 
   .show {display: block;}
 
@@ -733,3 +733,10 @@ https://toughengineer.github.io/demo/slider-styler*/
     margin-left: 15px;
     margin-bottom: 27px;
   }
+
+
+  /* tlef-stl
+  .txt-arrow-left{
+    width: 11px;
+    height: 6px;
+  } */
