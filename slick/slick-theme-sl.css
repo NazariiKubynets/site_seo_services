@@ -94,7 +94,7 @@
 }
 
 /* Dots */
-.slick-dotted.slick-slider
+.slick-dotted,.slick-slider
 {
     margin-bottom: 30px;
 }
@@ -181,4 +181,58 @@
 {
     opacity: .75;
     color: black;
+}
+
+@media (max-device-width : 1160px) {
+
+  #main {
+    max-width: 768px;
+    margin: auto;
+  }
+
+  .slick-prev, .slick-next{
+    width: 33.5px;
+    height:33.5px;
+  }
+
+  .slick-prev {
+    left: -67px;
+    bottom: 60px;
+  }
+
+  .slick-next {
+    right: -67px;
+    bottom: 60px;
+  }
+
+  .slick-prev:before, .slick-next:before{
+    width: 31.2px;
+    height: 31.2px;
+  }
+
+  .slick-prev:before
+  {
+      content:url("../img/arrow-right-pl.png");
+  }
+
+  .slick-next:before
+  {
+      content: url("../img/arrow-left-pl.png");
+  }
+
+
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+
+  #main {
+    max-width: 320px;
+    margin: auto;
+  }
+
+  .slick-prev, .slick-next{
+    display: none !important;
+    margin-right: 300px;
+  }
+
 }

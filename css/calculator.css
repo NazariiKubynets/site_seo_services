@@ -821,7 +821,7 @@ https://toughengineer.github.io/demo/slider-styler*/
     font-weight: 600;
     font-size: 13px;
     line-height: 17px;
-    margin-bottom: 17px;
+    margin-bottom: 27px;
 
 }
 
@@ -853,7 +853,7 @@ label.label-txt-c.label-txt {
 
 
 .choice-column-b {
-  margin-left: -65px;
+  margin-left: -39px;
 }
 
 .point-four {
@@ -1118,6 +1118,10 @@ label.label-txt-c.label-txt {
   @media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
     .calculator-row {
       flex-direction: column;
+    }
+
+    .choice-column-b {
+      margin-left: -65px;
     }
 
     .calculator  {

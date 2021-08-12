@@ -1069,7 +1069,6 @@ ul.slick-dots {
 /* Способы SEO продвижения сайта */
 
 .ways-seo,.advertising-seo{
-    width: 1142px;
     margin-top: 240px;
 }
 
@@ -1450,6 +1449,10 @@ ul.slick-dots {
 }
 
 /* Список по SEO продвижению сайта */
+
+.promotion-list-accordion{
+    display: none;
+  }
 
 .promotion-list-title{
     color: var(--text-color);
@@ -2391,10 +2394,20 @@ ul.slick-dots {
         top: 209px;
     }
 
-    .border-dots {
+    .border-dots, .slick-dots li {
         width: 10px;
         height: 10px;
-        margin: 0 10px;  
+        margin: 0 8px;  
+    }
+
+    .slick-dots li button {
+        width: 9px;
+    height: 9px;
+    }
+
+    .slick-dots li.slick-active button:before {
+        width: 10px;
+        height: 10px;
     }
 
     .carousel-indicators [data-bs-target] {
@@ -2652,6 +2665,420 @@ ul.slick-dots {
     .dropdown-center-i {
         left: -630px;
     }
+
+    /* nazar */
+
+    .promotion-list-accordion{
+        display: none;
+      }
+    
+      .ways-seo-subtitle, .advertising-seo-subtitle{
+        font-size: 23px;
+        line-height: 30px;
+        margin-bottom: 23px;
+      }
+    
+      .ways-seo-txt p, .advertising-seo-txt p{
+        font-size: 11px;
+        line-height: 17px;
+        margin-bottom: 11px;
+      }
+    
+      .ways-seo-image img, .advertising-seo-image img{
+        width: 309px;
+        height: 212px;
+        margin-left: 30px;
+      }
+    
+      .txt-tariffs h3, .txt-seo_or_context h3{
+        font-size: 19px;
+        line-height: 23px;
+        margin-bottom: 7.4px;
+        margin-top: 23px;
+      }
+      .txt-tariffs p, .txt-seo_or_context p{
+        width: 614px;
+        font-size: 11px;
+        line-height: 13px;
+        margin-bottom: 34px;
+      }
+      .img-a {
+        width: 215px;
+        height: 113px;
+        margin-bottom: 17px;
+      }
+    
+      .img-b {
+        width: 201px;
+        height: 113px;
+        margin-bottom: 17px;
+      }
+    
+      .img-c {
+        width: 214px;
+        height: 113px;
+        margin-bottom: 17px;
+      }
+    
+      .tariffs-subtitle{
+        font-size: 13px;
+        line-height: 17px;
+        margin-bottom: 17px;
+      }
+    
+      .txt-a, .txt-b, .txt-c{
+        width: 201px;
+        height: 21px;
+        font-size: 11px;
+        line-height: 11px;
+        margin-bottom: 17px;
+      }
+    
+      .price-stl-a{
+        width: 215px;
+        height: 40px;
+        margin-bottom: 32px;
+      }
+    
+      .price-a{
+        width: 208px;
+        height: 35.5px;
+      }
+    
+      .price-a p{
+        font-size: 13px;
+        line-height: 12px;
+      }
+    
+      .price-stl-b{
+        width: 201px;
+        height: 40px;
+        margin-bottom: 32px;
+      }
+    
+      .price-b{
+        width: 194px;
+        height: 33.5px;
+      }
+    
+      .price-b p{
+        font-size: 12px;
+        line-height: 11px;
+      }
+    
+      .price-stl-c{
+        width: 215px;
+        height: 40px;
+        margin-bottom: 32px;
+      }
+    
+      .price-c{
+        width: 208px;
+        height: 33.5px;
+      }
+    
+      .price-c p{
+        font-size: 12px;
+        line-height: 11px;
+      }
+    
+      .list-a p,.list-b p,.list-c p, .info-style-a,
+      .info-style{
+        width: 201px;
+        font-size: 10px;
+        line-height: 15px;
+        margin-top: 7px;
+        margin-bottom: 10px;
+      }
+    
+      .list-txt-b p, .list-txt-c p, .info-style-a {
+        position: relative;
+        margin-top: 1px;
+        margin-bottom: 1.6px;
+      }
+    
+      .list-a hr, .list-b hr, .list-c hr {
+        width: 201px;
+        height: 1px;
+      }
+    
+      .img-info {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 1px;
+      }
+    
+      .btn-get-a, .btn-get-b, .btn-get-c{
+        width: 183.5px;
+        height: 33.5px;
+        margin-top: 23.3px;
+      }
+    
+      .btn-get-a span, .btn-get-b span, .btn-get-c span {
+        width: 142px;
+        height: 10px;
+        font-size: 11px;
+        line-height: 13px;
+      }
+    
+      .tariffs-b {
+        margin-left: 68px;
+        margin-right: 68px;
+      }
+    
+      .background-btn{
+        width: 768px;
+        height: 33px;
+      }
+    
+      .btn-list{
+        width: 766px;
+        height: 31px;
+        margin-top: 23px;
+      }
+    
+      .btn-list span {
+        width: 253px;
+        height: 10px;
+        font-size: 10px;
+        line-height: 13px;
+      }
+    
+      .promotion-title, .dvertising-title {
+        width: 201px;
+        font-size: 12px;
+        line-height: 13px;
+        margin-bottom: 10px;
+      }
+    
+      .seo-promotion p, .сontextual-advertising p{
+        width: 372px;
+        height: 22px;
+        font-size: 10px;
+        line-height: 15px;
+        margin-top: 7px;
+      }
+    
+      .txt-seo-context-row hr{
+        width: 373px;
+        height: 1px;
+      }
+    
+      .seo-promotion{
+        margin-right: 22px;
+      }
+    
+      .advertising-seo-desc p{
+        width: 764px;
+        font-size: 11px;
+        line-height: 17px;
+        margin-top: 47px;
+        margin-bottom: 117px;
+      }
+    
+      .ways-seo, .advertising-seo {
+        margin-top: 160px;
+      }
+    
+      .promotion-list-title{
+        width: 761px;
+        font-size: 23px;
+        line-height: 30px;
+        margin-bottom: 37px;
+      }
+    
+      .advantages-name-stl{
+        width: 293px;
+        height: 40px;
+        margin-bottom: 125px;
+      }
+    
+      .advantages-stl{
+        width: 284px;
+        height: 33.5px;
+      }
+    
+      .advantages-subtitle{
+        width: 293px;
+        font-size: 11px;
+        line-height: 13px;
+      }
+    
+      .promotion-colmn-a, .promotion-colmn-b, .promotion-colmn-c{
+        margin-left: 20px;
+      }
+    
+      .classic-stl-a, .complex-stl-b, .etavrian-stl-c{
+        width: 137px;
+        height: 40px;
+        margin-bottom: 125px;
+      }
+    
+      .classic-a, .complex-b, .etavrian-c{
+        width: 130px;
+        height: 33.5px;
+      }
+    
+      .classic-subtitle, .complex-subtitle, .etavrian-subtitle{
+        width: 137px;
+        font-size: 11px;
+        line-height: 13px;
+      }
+    
+      .advantages-list p, .info-style-b{
+        width: 293px;
+        height: 40px;
+        font-size: 10px;
+        line-height: 15px;
+      }
+    
+      .classic-data-a p, .complex-data-b p, .etavrian-data-c p{
+        width: 137px;
+        height: 40px;
+        font-size: 11px;
+        line-height: 15px;
+      }
+    
+      .colm-img{
+        width: 137px;
+        height: 40px;
+      }
+    
+      .img-forbidden{
+        width: 16px;
+        height: 16px;
+      }
+    
+      .img-tick {
+        width: 16px;
+        height: 12px;
+      }
+    
+      .advantages-list hr {
+        width: 293px;
+      }
+    
+      .classic-data-a hr, .complex-data-b hr, .etavrian-data-c hr{
+        width: 137px;
+      }
+    
+      .btn-help-choose {
+        margin-top: 48px;
+        margin-bottom: 202px;
+      }
+    
+      .btn-help-choose a{
+        width: 227px;
+        height: 10px;
+        font-size: 11px;
+        line-height: 13px;
+      }
+    
+      .promotion-stl-price{
+        width: 137px;
+        height: 40px;
+        font-size: 11px;
+        line-height: 15px;
+      }
+    
+      .btn-choose-a, .btn-choose-b, .btn-choose-c{
+        width: 137px;
+        height: 33.5px;
+        margin-top: 37px;
+      }
+    
+      .btn-choose-a span, .btn-choose-b span, .btn-choose-c span{
+        font-size: 11px;
+        line-height: 13px;
+      }
+    
+      .reviews-title{
+        width: 761px;
+        height: 11px;
+        font-size: 23px;
+        line-height: 30px;
+        margin-bottom: 24px;
+      }
+    
+      .customer-reviews{
+        width: 768px;
+        height: 67px;
+      }
+    
+      .txt-under-customer{
+        font-size: 8px;
+        line-height: 16px;
+        margin-bottom: 16px;
+      }
+    
+      .txt-arrow-left{
+        width: 8px;
+        height: 5.36px;
+        margin-left: 3.35px;
+      }
+    
+      .statistics{
+        margin-bottom: 33.5px;
+      }
+    
+      .statistics-data-a{
+        font-size: 32px;
+        line-height: 40px;
+        margin-left: 6px;
+      }
+    
+      .statistics p{
+        width: 217px;
+        font-size: 15px;
+        line-height: 18px;
+        margin-left: 23px;
+      }
+    
+      .statistics-data-b{
+        font-size: 32px;
+        line-height: 40px;
+        margin-left: 67px;
+      }
+    
+      .slider-profiles {
+        width: 468.5px;
+        height: 148px;
+        margin: 0px 164px;
+      }
+    
+      .img-slider-a{
+        width: 79px;
+        height: 79px;
+        margin-bottom: 20px;
+      }
+    
+      .img-slider-b {
+        width: 118.6px;
+        height: 79px;
+        margin-left: 25.5px;
+      }
+    
+      .data-slider {
+        width: 168px;
+        margin-left: 25px;
+      }
+    
+      .name-last_name{
+        font-size: 12px;
+        line-height: 13px;
+      }
+    
+      .name-posada{
+        font-size: 10px;
+        line-height: 13px;
+      }
+    
+      .txt-slider{
+        width: 463px;
+        font-size: 10px;
+        line-height: 13px;
+        margin-left: 1px;
+      }
 
 }
 
@@ -2966,7 +3393,7 @@ ul.slick-dots {
 /* accrodion */
 
 
-.accrodion-title {
+.accrodion-title-c {
     font-size: 23px;
     line-height: 30px;
     font-style: normal;
@@ -2984,50 +3411,51 @@ ul.slick-dots {
        display: none;
    }
 
-  .accordion-flush .accordion-button {
+  .accordion-flush .a-btn {
       color: var(--text-color);
       background: #333333;
       box-shadow: -2px -2px 5px rgb(68 68 68 / 50%), 2px 2px 5px rgb(0 0 0 / 50%);
       border-radius: 100px;
       margin-top: 5px;
+      border: none;
   }
 
-  .accordion-button:not(.collapsed) {
+  .a-btn:not(.collapsed) {
       background-color: var(--main-color);
       color: var(--text-color);
   }
 
-  .accordion-flush .accordion-item:first-of-type .accordion-button {
+  .accordion-flush .accordion-item-c:first-of-type .a-btn {
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
   }
 
-  .accordion-flush .accordion-item:last-of-type .accordion-button.collapsed {
+  .accordion-flush .accordion-item-c:last-of-type .a-btn.collapsed {
     border-bottom-right-radius: 100px;
     border-bottom-left-radius: 100px;
   }
 
-  .accordion-item:last-of-type .accordion-collapse {
+  .accordion-item-c:last-of-type .accordion-collapse-c {
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
   }
 
-  .accordion-button:focus {
+  .a-btn:focus {
     border-color:transparent;
     
   }
 
-  .accordion-collapse {
+  .accordion-collapse-c {
     background: #202020;
     border-radius: 20px;
     margin-top: 6px;
   }
 
-  .accordion-button:not(.collapsed)::after {
+  .a-btn:not(.collapsed)::after {
       background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
   }
 
-  .accordion-body {
+  .accordion-body-c {
     padding: 1rem 21.5px;
 }
 
@@ -3166,4 +3594,380 @@ ul.slick-dots {
         right: 40px;
         bottom: 40px;
     }
+
+    /* SEO website promotion methods */
+
+  .ways-seo-row, .advertising-seo-row {
+    flex-direction: column;
+  }
+
+  .ways-seo-txt p, .advertising-seo-txt p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .ways-seo-image img, .advertising-seo-image img {
+    width: 315px;
+    margin-top: 18px;
+    margin-left: 0px;
+  }
+
+  .txt-tariffs p, .txt-seo_or_context p{
+    width: 315px;
+    font-size: 14.3px;
+    line-height: 18px;
+  }
+
+  .tariffs-seo {
+    flex-direction: column;
+  }
+
+  .img-a,.img-b,.img-c{
+    width: 315px;
+    height: 162px;
+  }
+
+  .tariffs-subtitle{
+    font-size: 18px;
+  }
+
+  .txt-a, .txt-b, .txt-c{
+    width: 315px;
+    height: 31px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .price-stl-a,.price-stl-b,.price-stl-c{
+    width: 315px;
+    height: 54px;
+  }
+
+  .price-a,.price-b,.price-c{
+    width: 305px;
+    height: 47px;
+  }
+
+  .price-a p,.price-b p,.price-c p{
+    font-size: 17px;
+  }
+
+  .tariffs-b{
+    margin: 68px 0px;
+  }
+
+  .list-a p, .list-b p, .list-c p,
+  .info-style-a, .info-style{
+    font-size: 14px;
+    width: 274px;
+    line-height: 23px;
+  }
+
+  .list-a hr, .list-b hr, .list-c hr{
+    width: 315px;
+  }
+
+  .btn-get-a, .btn-get-b, .btn-get-c{
+    width: 315px;
+    height: 57px;
+  }
+
+  .btn-get-a span, .btn-get-b span, .btn-get-c span{
+    font-size: 15px;
+  }
+
+  .background-btn {
+    width: 315px;
+    height: 57px;
+  }
+
+  .btn-list {
+    width: 313px;
+    height: 55px;
+  }
+
+  .btn-list span{
+    font-size: 10px;
+  }
+
+/* SEO and contextual advertising */
+
+  .txt-tariffs h3, .txt-seo_or_context h3{
+    font-size: 19px;
+    margin-bottom: 11px;
+    margin-top: 34px;
+  }
+
+  .txt-seo-context-row{
+    flex-direction: column;
+  }
+
+  .seo-promotion{
+    margin-right: 0px;
+    margin-bottom: 34px;
+  }
+
+  .promotion-title, .dvertising-title{
+    width: 315px;
+    font-size: 16px;
+  }
+
+  .seo-promotion p, .сontextual-advertising p{
+    width: 315px;
+    height: auto;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 10px;
+  }
+
+  .txt-seo-context-row hr{
+    width: 315px;
+  }
+
+  .advertising-seo-desc p{
+    width: 315px;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 47px;
+    margin-bottom: 117px;
+  }
+
+/* SEO Site Promotion List */
+
+  .promotion-list{
+    display: none;
+  }
+
+  .promotion-list-accordion{
+    display: block;
+  }
+
+  .accordion-item{
+    margin-bottom: 30px;
+  }
+
+  .accordion-header{
+    width: 315px;
+    height: 65px;
+    background: var(--main-color);
+    box-shadow: -2px -2px 5px rgb(68 68 68 / 50%), 2px 2px 5px rgb(0 0 0 / 50%);
+    border-radius: 86.5949px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .accordion-item:first-of-type .b-btn {
+    border-radius: 86.5949px;
+    border-bottom-width: 1px;
+  }
+
+  .accordion-item:last-of-type .b-btn.collapsed{
+    border-radius: 86.5949px;
+    border-bottom-width: 1px;
+  }
+
+  .b-btn.collapsed {
+    border-bottom-width: 1px;
+  }
+
+  .b-btn:focus{
+    box-shadow: none;
+    border: none;
+  }
+
+  .b-btn{
+    width: 305px;
+    height: 54px;
+    border: none;
+    box-shadow: inset -1px -1px 2px rgb(49 49 49 / 75%), inset 1px 1px 1px rgb(0 0 0 / 50%);
+    border-radius: 86.5949px;
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .b-btn:not(.collapsed){
+    color: var(--text-color);
+  }
+
+  .b-btn:not(.collapsed):after{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  }
+
+  .accordion-button-a{
+    background: linear-gradient(110.6deg, #63D337 13.66%, #61ED17 86.34%);
+  }
+
+  .accordion-button-b{
+    background: linear-gradient(279.29deg, #FF732F 7.03%, #FBBC04 92.97%);
+  }
+
+  .accordion-button-c{
+    background: linear-gradient(116.4deg, #DA0AFC 18.95%, #1877F2 94.74%);
+  }
+
+  .accordion-collapse{
+    background: #202020;
+    border-radius: 20px;
+    margin-top: 6px;
+  }
+
+  .accordion-item:last-of-type .accordion-collapse{
+    border-radius: 20px;
+  }
+
+  .accordion-body {
+    padding: 10px 10px;
+  }
+
+  .accordion-body-row{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .advantages-list{
+    margin-right: 25px;
+  }
+
+  .advantages-list p, .info-style-b{
+    width: 190px;
+    height: 65px;
+  }
+
+  .advantages-list hr {
+    width: 195px;
+  }
+
+  .classic-data-a p, .complex-data-b p,
+  .etavrian-data-c p,.colm-img,.promotion-stl-price{
+    width: 75px;
+    height: 65px;
+  }
+
+  .promotion-stl-price{
+    text-align: center;
+  }
+
+  .classic-data-a hr, .complex-data-b hr,
+  .etavrian-data-c hr{
+    width: 75px;
+  }
+
+  .btn-choose-a, .btn-choose-b,
+  .btn-choose-c{
+    width: 293px;
+    height: 45px;
+    margin-bottom: 10px
+  }
+
+  .img-info-tlf-a{
+    position: relative;
+    right: 35px;
+    top: 6px;
+  }
+
+  .img-info-tlf-b{
+    position: relative;
+    right: 131px;
+    top: 14px;
+  }
+
+  .img-info-tlf-c{
+    position: relative;
+    right: 31px;
+    top: 6px;
+  }
+
+  .img-info-tlf-d{
+    position: relative;
+    right: 82px;
+    top: 6px;
+  }
+
+/* Our clients, testimonials and public profiles */
+
+  .reviews-title{
+    width: 315px;
+    height: 34px;
+    font-size: 23px;
+    line-height: 30px;
+    margin-bottom: 36.15px;
+  }
+
+  .customer-reviews {
+    width: 315px;
+    height: 35px;
+  }
+
+  .txt-under-customer{
+    font-size: 6px;
+    margin-bottom: 24px;
+  }
+
+  .statistics{
+    flex-direction: column;
+  }
+
+  .statistics-data-a,.statistics-data-b{
+    font-size: 45px;
+    margin-left: 0px;
+  }
+
+  .statistics p{
+    width: 315px;
+    font-size: 20px;
+    margin-left: 0px;
+    margin-bottom: 25px;
+  }
+
+  /* SLIDER */
+  .slider-profiles {
+    width: 315px;
+    height: 99.5px;
+    margin: 0px;
+  }
+
+  .img-slider-a{
+    width: 53px;
+    height: 53px;
+    margin-bottom: 13.4px;
+  }
+
+  .img-slider-b {
+    width: 79px;
+    height: 53px;
+    margin-left: 17px;
+  }
+
+  .data-slider {
+    width: 112.5px;
+    margin-left: 17px;
+  }
+
+  .name-last_name{
+    font-size: 12px;
+    line-height: 9px;
+    margin: 0px;
+  }
+
+  .name-posada{
+    font-size: 7px;
+    line-height: 9px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+
+  .txt-slider{
+    width: 313px;
+    font-size: 8px;
+    line-height: 9px;
+    margin-left: 1px;
+  }
+
 }
+}
+
+
