@@ -76,6 +76,7 @@ a.navbar-brand {
 
 .navbar-brand img {
     width: 205px;
+    height: 40px;
 }
 
 .button-cons {
@@ -410,6 +411,7 @@ a.dropdown-item {
 .calculator-buttom img {
     width: 16.63px;
     transform: rotate(180deg);
+    height: 14.66px;
 }
 
 .like-calculator p {
