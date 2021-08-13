@@ -244,6 +244,7 @@ a.dropdown-item {
     display: flex;
     flex-direction: row;
     margin-top: 185px;
+    height: 380px;
 }
 
 .seo-img img {
@@ -271,7 +272,8 @@ a.dropdown-item {
     font-size: 16px;
     line-height: 26px;
     color: rgba(255, 255, 255, 0.83);
-    margin-bottom: 26px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .seo-subtitle-c {
@@ -311,7 +313,7 @@ a.dropdown-item {
 .seo-list-c {
     color: rgba(255, 255, 255, 0.82);
     display: grid;
-    grid-template-columns: 349px 349px 349px;
+    grid-template-columns: 345px 345px 345px;
     grid-column-gap: 25px; 
 
 }
@@ -3270,12 +3272,14 @@ ul.slick-dots {
         margin-bottom: 30px;
         margin-top: 30px;
         height: 40px;
+        width: 150px;
     } 
 
     .btn-give-bonus {
         margin-bottom: 30px;
         margin-top: 30px;
         height: 40px;
+        width: 150px;
     }
 
     .seo-title {
@@ -3294,7 +3298,8 @@ ul.slick-dots {
     }
 
     .seo-row-c {
-        flex-direction: column
+        flex-direction: column;
+        height: 717px;
     }
 
     .seo-img img {
