@@ -1133,7 +1133,7 @@ ul.slick-dots {
 .img-info {
   width: 15px;
   height: 15px;
-  margin-bottom: 6px;
+  margin-bottom: 3px;
 }
 
 .img-info-stl{
@@ -1328,8 +1328,8 @@ ul.slick-dots {
 
 .list-txt-b p,.list-txt-c p, .info-style-a{
     position: relative;
-    margin-top: 1.5px;
-    margin-bottom: 2.5px;
+    margin-top: 0.5px;
+    margin-bottom: 1.5px;
 }
 
 .btn-get-a,.btn-get-b,.btn-get-c {
@@ -1583,10 +1583,12 @@ ul.slick-dots {
     font-weight: 500;
     font-size: 14px;
     line-height: 23px;
-    display: flex;
-    align-items: center;
+    
+    
     margin: 0;
-    float: none;
+   
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .info-style-b span {
@@ -2713,7 +2715,7 @@ ul.slick-dots {
       }
     
       .img-b {
-        width: 201px;
+        width: 210px;
         height: 113px;
         margin-bottom: 17px;
       }
@@ -2755,13 +2757,13 @@ ul.slick-dots {
       }
     
       .price-stl-b{
-        width: 201px;
+        width: 210px;
         height: 40px;
         margin-bottom: 32px;
       }
     
       .price-b{
-        width: 194px;
+        width: 203px;
         height: 33.5px;
       }
     
@@ -2788,7 +2790,7 @@ ul.slick-dots {
     
       .list-a p,.list-b p,.list-c p, .info-style-a,
       .info-style{
-        width: 201px;
+        width: 208px;
         font-size: 10px;
         line-height: 15px;
         margin-top: 7px;
@@ -2802,7 +2804,7 @@ ul.slick-dots {
       }
     
       .list-a hr, .list-b hr, .list-c hr {
-        width: 201px;
+        width: 210px;
         height: 1px;
       }
     
@@ -2815,7 +2817,11 @@ ul.slick-dots {
       .btn-get-a, .btn-get-b, .btn-get-c{
         width: 183.5px;
         height: 33.5px;
-        margin-top: 23.3px;
+        margin-top: 43.3px;
+        position: relative;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        margin-right: -50%;
       }
     
       .btn-get-a span, .btn-get-b span, .btn-get-c span {
@@ -2826,8 +2832,8 @@ ul.slick-dots {
       }
     
       .tariffs-b {
-        margin-left: 68px;
-        margin-right: 68px;
+        margin-left: 64px;
+        margin-right: 64px;
       }
     
       .background-btn{
@@ -3602,6 +3608,13 @@ ul.slick-dots {
         bottom: 40px;
     }
 
+    .img-info{
+        width: 14px;
+        height: 14px;
+        margin-bottom: 2px;
+      }
+    
+
     /* SEO website promotion methods */
 
   .ways-seo-row, .advertising-seo-row {
@@ -3870,29 +3883,7 @@ ul.slick-dots {
     margin-bottom: 10px
   }
 
-  .img-info-tlf-a{
-    position: relative;
-    right: 35px;
-    top: 6px;
-  }
-
-  .img-info-tlf-b{
-    position: relative;
-    right: 131px;
-    top: 14px;
-  }
-
-  .img-info-tlf-c{
-    position: relative;
-    right: 31px;
-    top: 6px;
-  }
-
-  .img-info-tlf-d{
-    position: relative;
-    right: 82px;
-    top: 6px;
-  }
+  
 
 /* Our clients, testimonials and public profiles */
 
@@ -3975,6 +3966,6 @@ ul.slick-dots {
   }
 
 }
-}
+
 
 
