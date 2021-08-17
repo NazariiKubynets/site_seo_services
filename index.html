@@ -7,11 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
 /* :root {
 
     font-family: 'Montserrat', sans-serif;
 } */
+        @font-face {
+          font-family: 'Montserrat';
+          src: url("font/Montserrat-Medium.ttf");
+        }
+
         :root {
             --main-color: #333333;
             --accent-color: #202020;
@@ -27,17 +32,16 @@
 
         #body {
             background-color: #333333;
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Montserrat';
         }
 
         body {
             margin: 0;
-            font-family: var(--bs-font-sans-serif);
+            /* font-family: var(--bs-font-sans-serif); */
             font-size: 1rem;
             font-weight: 400;
             line-height: 1.5;
             color: #212529;
-
             -webkit-text-size-adjust: 100%;
             -webkit-tap-highlight-color: transparent;
         }
